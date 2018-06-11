@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+        /*midnightblue*/
+
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: radial-gradient(circle at center, midnightblue, black);
+            position:relative;
+        }
+        .coil{
+            position:relative;
+            display: flex;
+            justify-content: center;
+            font-size:25px;
+            /*   transform: translateX(1em); */
+        }
+        .coil span{
+            position:absolute;
+            border:1em solid darkgreen;
+            width: calc((var(--a) * 2 - 1 ) * 1em);
+            height: calc((var(--a) - 0.5 ) * 1em);
+        }
+        .coil span:nth-child(odd){
+            align-self: flex-end;
+            border-color:darkgreen;
+            border-bottom:none;
+            border-radius: 50% 50% 0 0 /100% 100% 0 0;
+        }
+        .coil span:nth-child(even){
+            border-color:darkgreen;
+            transform:translateX(-1em);
+            border-top:none;
+            border-radius: 0 0 50% 50% / 0 0 100% 100%;
+        }
+        .coil span:nth-child(1){
+            --a:1;
+        }
+        .coil span:nth-child(2){
+            --a:2;
+        }
+        .coil span:nth-child(3){
+            --a:3;
+        }
+        .coil span:nth-child(4){
+            --a:4;
+        }
+        .coil span:nth-child(5){
+            --a:5;
+        }
+        .coil span:nth-child(6){
+            --a:6;
+        }
+        .coil span:nth-child(7){
+            --a:7;
+        }
+        .coil span:nth-child(8){
+            --a:8;
+        }
+        .coil::before,
+        .coil::after{
+            content:'';
+            position:absolute;
+            width:1em;
+            height:1em;
+            border-radius:50%;
+            top:-0.5em;
+        }
+        .coil::before{
+            background-color:darkgreen;
+            left:-1.5em;
+        }
+        .coil::after{
+            background-color:darkred;
+            left:-9.5em;
+            z-index: -1;
+            box-shadow: 0 0 1em white;
+            animation:xxx 1s linear infinite alternate;
+        }
+        @keyframes xxx {
+            to{
+                box-shadow: 0 0 0 white;
+            }
+        }
+        .dong{
+            position:absolute;
+            width: 0.2em;
+            height:0.5em;
+            background: radial-gradient(circle at center, midnightblue, black);
+            border-radius:0.1em;
+            left:-1em;
+            top:-0.5em;
+            z-index: 1;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="coil">
+
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        <div class="dong"></div>
+    </div>
+</body>
+</html>
