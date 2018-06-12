@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: darkslategray;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+}
+
+.ice-lolly{
+    font-size:10px;
+}
+.falvors{
+    width:19em;
+    height:26em;
+    /*border:1px solid;*/
+    overflow: hidden;
+    position:relative;
+    border-radius:8em 8em 1em 1em;
+
+}
+.falvors::before{
+    content:'';
+    position:absolute;
+    width:140%;
+    height:120%;
+    background:linear-gradient(
+            hotpink 0,
+            hotpink 25%,
+            deepskyblue 25%,
+            deepskyblue 50%,
+            gold 50%,
+            gold 75%,
+            lightgreen 75%,
+            lightgreen 100%
+    );
+    left:-20%;
+    z-index:-1;
+    transform:rotate(-25deg);
+    animation:moving 100s linear infinite;
+    animation-play-state:paused;
+}
+.ice-lolly:hover .falvors::before{
+    animation-play-state:running;
+}
+@keyframes moving{
+    to{
+        background-position: 0 1000vh;
+    }
+}
+.falvors::after{
+    content:'';
+    width:2em;
+    height:17em;
+    position:absolute;
+    background:rgba(255,255,255,0.5);
+    left:2em;
+    bottom:2em;
+    border-radius:1em;
+}
+.stick{
+    width:6em;
+    height: 10em;
+    left:calc(50% - 6em/2);
+    position:relative;
+    background:sandybrown;
+    border-radius:0 0 3em 3em;
+}
+.stick::after{
+    content:'';
+    width:inherit;
+    height:3em;
+    position:absolute;
+    background:sienna;
+
+}
