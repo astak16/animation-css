@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    height: 100vh;
+    background:lightskyblue;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.pencil{
+    width:50em;
+    height:3.5em;
+    position:relative;
+    filter:drop-shadow(10px 10px 3px gray); /*阴影*/
+}
+.pencil > .barrel{
+    width:40em;
+    position: absolute;
+    left:4em;
+    border-top:1em solid forestgreen;
+    border-bottom:1em solid darkgreen;
+    background:green;
+    color:silver;
+    line-height:1.5;
+    text-align:center;
+    letter-spacing: 1em;
+}
+.pencil > .taper::after,
+.pencil > .taper::before{
+    content:'';
+    position:absolute;
+    left:-4em;
+    border-style:solid;
+    border-width:calc(3.5em / 2) 4em;
+}
+.pencil > .taper::before{
+    border-color:transparent burlywood transparent transparent;
+}
+.pencil > .taper::after{
+    border-color:transparent black transparent transparent;
+    transform: scale(0.3);
+}
+.pencil > .eraser{
+    position: absolute;
+    height:1.5em;
+    width:6em;
+    line-height:1.5;
+    right:0;
+    border-top:1em solid pink;
+    border-bottom:1em solid lightcoral;
+    background: lightpink;
+}
+.pencil > .eraser::before{
+    content:'';
+    position: absolute;
+    height:1.5em;
+    width:2em;
+    line-height:1.5;
+    left:0;
+    border-top:1em solid lightgray;
+    border-bottom:1em solid gray;
+    background: silver;
+    top:-1em;
+}

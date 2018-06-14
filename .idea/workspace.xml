@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b4412c-833d-4ad1-a1a6-6ffa89c9061b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pencil-2018-6-14/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pencil-2018-6-14/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MosquitoCoils-2018-6-11/index.html" afterPath="$PROJECT_DIR$/MosquitoCoils-2018-6-11/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ice-lolly-2018-6-12/index.html" afterPath="$PROJECT_DIR$/ice-lolly-2018-6-12/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,20 +19,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loader-2018-6-13/index.html">
+        <entry file="file://$PROJECT_DIR$/pencil-2018-6-14/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="308">
+              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/loader-2018-6-13/css/style.css">
+        <entry file="file://$PROJECT_DIR$/pencil-2018-6-14/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="60" column="12" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+            <state relative-caret-position="374">
+              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -60,6 +60,8 @@
         <option value="$PROJECT_DIR$/ice-lolly-2018-6-12/index.html" />
         <option value="$PROJECT_DIR$/loader-2018-6-13/index.html" />
         <option value="$PROJECT_DIR$/loader-2018-6-13/css/style.css" />
+        <option value="$PROJECT_DIR$/pencil-2018-6-14/index.html" />
+        <option value="$PROJECT_DIR$/pencil-2018-6-14/css/style.css" />
       </list>
     </option>
   </component>
@@ -77,8 +79,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="24" />
-    <option name="y" value="84" />
+    <option name="x" value="239" />
+    <option name="y" value="30" />
     <option name="width" value="1585" />
     <option name="height" value="986" />
   </component>
@@ -108,23 +110,13 @@
             <path>
               <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="ice-lolly-2018-6-12" type="462c0819:PsiDirectoryNode" />
+              <item name="pencil-2018-6-14" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="loader-2018-6-13" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="loader-2018-6-13" type="462c0819:PsiDirectoryNode" />
+              <item name="pencil-2018-6-14" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="MosquitoCoils-2018-6-11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -135,7 +127,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../163-music-demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
@@ -169,14 +161,16 @@
       <workItem from="1528793331137" duration="17000" />
       <workItem from="1528859396409" duration="2192000" />
       <workItem from="1528881664779" duration="19000" />
+      <workItem from="1528959267541" duration="2015000" />
+      <workItem from="1528985806525" duration="29000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4933000" />
+    <option name="totallyTimeSpent" value="6977000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="134" width="1920" height="1026" extended-state="6" />
+    <frame x="239" y="30" width="1920" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -208,11 +202,40 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pencil-2018-6-14/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pencil-2018-6-14/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/loader-2018-6-13/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loader-2018-6-13/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="60" column="12" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loader-2018-6-13/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -220,7 +243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
           <caret line="60" column="12" lean-forward="true" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -253,9 +275,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ice-lolly/index.html" />
+    <entry file="file://$PROJECT_DIR$/loader-2018-6-13/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loader-2018-6-13/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="60" column="12" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ice-lolly-2018-6-12/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
+        <state relative-caret-position="513">
           <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
         </state>
       </provider>
@@ -269,23 +305,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MosquitoCoils-2018-6-11/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="108" column="24" lean-forward="false" selection-start-line="108" selection-start-column="24" selection-end-line="108" selection-end-column="24" />
+        <state relative-caret-position="403">
+          <caret line="104" column="23" lean-forward="true" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loader-2018-6-13/index.html">
+    <entry file="file://$PROJECT_DIR$/pencil-2018-6-14/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="308">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loader-2018-6-13/css/style.css">
+    <entry file="file://$PROJECT_DIR$/pencil-2018-6-14/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="60" column="12" lean-forward="false" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="12" />
+        <state relative-caret-position="374">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding />
         </state>
       </provider>
