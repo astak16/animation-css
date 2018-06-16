@@ -7,3 +7,4 @@
 3. 永动的牛顿摆  ：[loader](https://astak16.github.io/Study-CSS/loader-2018-6-13/index.html)
 4. 铅笔：[pencil](https://astak16.github.io/Study-CSS/pencil-2018-6-14/index.html)
 5. 小球绕着圆环盘旋： [container](https://astak16.github.io/Study-CSS/container-2018-6-15/index.html)
+6. 文本淡入淡出的loader动画：[loader](https://astak16.github.io/Study-CSS/loader-2018-6-16/index.html)
