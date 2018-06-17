@@ -1,4 +1,4 @@
-[预览链接]()
+[预览链接](https://astak16.github.io/Study-CSS/signboard-2018-6-17/index.html)
 
 知识点
 1. `animation`沿着上边沿转，有两种方式

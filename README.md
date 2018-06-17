@@ -8,4 +8,6 @@
 4. 铅笔：[pencil](https://astak16.github.io/Study-CSS/pencil-2018-6-14/index.html)
 5. 小球绕着圆环盘旋： [container](https://astak16.github.io/Study-CSS/container-2018-6-15/index.html)
 6. 文本淡入淡出的`loader`动画：[loader](https://astak16.github.io/Study-CSS/loader-2018-6-16/index.html)
+7. 一个晃动的公告板：[signboard](https://astak16.github.io/Study-CSS/signboard-2018-6-17/index.html)
+
 
