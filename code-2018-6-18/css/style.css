@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+}
+.code{
+    padding:1em;
+    background:silver;
+    font-size:40px;
+    border-radius:0.5em;
+}
+.code p{
+    white-space:pre;
+}
+.code p:not(:last-child){
+    animation:step 2s infinite;
+    animation-delay: var(--n);
+}
+.code p:nth-child(2){
+    --n:0.5s;
+}
+.code p:nth-child(3){
+    --n:1s;
+}
+.code p:nth-child(4){
+    --n:1.5s;
+}
+.code p:nth-child(5){
+    --n:2s;
+}
+@keyframes step{
+    0% , 25%{
+        color:white;
+        background:deepskyblue;
+    }
+    26%{
+        color:black;
+        background:transparent;
+    }
+}
