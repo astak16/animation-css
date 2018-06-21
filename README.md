@@ -11,5 +11,7 @@
 7. 一个晃动的公告板：[signboard](https://astak16.github.io/Study-CSS/signboard-2018-6-17/index.html)
 8. 用纯 CSS 描述程序员的生活  [code](https://astak16.github.io/Study-CSS/code-2018-6-19/index.html)
 9. 太阳、地球、月亮的运转模型[revolution](https://astak16.github.io/Study-CSS/revolution-2018-6-19/index.html)
+10. [会闪的眼睛](https://astak16.github.io/Study-CSS/blink-2018-6-20/index.html)
+11. [一直卡通鹦鹉](https://astak16.github.io/Study-CSS/parrot-2018-6-21/index.html)
 
 

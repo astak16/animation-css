@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:darkslategray;
+}
+.parrot{
+    font-size: 40px;
+    height:10em;
+    width:10em;
+    /*border:1px gray solid;*/
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/*.parrot::before{*/
+    /*content:'';*/
+    /*width: 100%;*/
+    /*height:100%;*/
+    /*background-image:*/
+            /*linear-gradient(gray 1px,transparent 0),*/
+            /*linear-gradient(90deg,gray 1px,transparent 0);*/
+    /*background-size:1em 1em;*/
+    /*position:absolute;*/
+    /*z-index: 1;*/
+/*}*/
+.parrot > *{
+    position:absolute;
+    transform:rotate(45deg);
+    transition:0.5s;
+}
+.parrot .outer{
+    height:100%;
+    width:100%;
+    border:1em solid;
+    border-color: transparent transparent orangered tomato;
+    border-radius:50%;
+}
+.parrot .middle{
+    height:80%;
+    width:80%;
+    border:4em solid;
+    border-color: gold transparent gainsboro white;
+    border-radius:50%;
+}
+.parrot .inter{
+    height:20%;
+    width:20%;
+    border:2em solid;
+    border-color: transparent orange transparent transparent;
+    border-radius:50%;
+}
+.parrot .inter::before{
+    content:'';
+    background:black;
+    width:1em;
+    height:1em;
+    position:absolute;
+    border-radius:50%;
+    left:-1.5em;
+    top:-0.5em;
+}
+.parrot:hover .outer{
+    border-color: transparent transparent lightseagreen darkcyan;
+    transform:rotate(225deg);
+}
+.parrot:hover .middle{
+    border-color: transparent orange white gainsboro;
+    transform:rotate(225deg);
+}
+.parrot:hover .inter{
+    border-color: transparent gold transparent transparent;
+    transform:rotate(135deg);
+}
