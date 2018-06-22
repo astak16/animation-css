@@ -1,0 +1,35 @@
+body{
+    height:100vh;
+    background:black;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+p{
+    font-size:200px;
+    text-transform:uppercase;
+    color:white;
+    font-weight:bold;
+    letter-spacing:0.3em;
+    background-image:linear-gradient(
+    to right,
+    orangered,
+    orange,
+    gold,
+    lightgreen,
+    cyan,
+    dodgerblue,
+    mediumpurple,
+    hotpink,
+    orangered
+    );
+    background-size:1000px;
+    animation:blinking 30s linear infinite;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+@keyframes blinking{
+    to{
+        background-position: -10000px;
+    }
+}

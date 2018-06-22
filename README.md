@@ -9,9 +9,10 @@
 5. 小球绕着圆环盘旋： [container](https://astak16.github.io/Study-CSS/container-2018-6-15/index.html)
 6. 文本淡入淡出的`loader`动画：[loader](https://astak16.github.io/Study-CSS/loader-2018-6-16/index.html)
 7. 一个晃动的公告板：[signboard](https://astak16.github.io/Study-CSS/signboard-2018-6-17/index.html)
-8. 用纯 CSS 描述程序员的生活  [code](https://astak16.github.io/Study-CSS/code-2018-6-19/index.html)
-9. 太阳、地球、月亮的运转模型[revolution](https://astak16.github.io/Study-CSS/revolution-2018-6-19/index.html)
-10. [会闪的眼睛](https://astak16.github.io/Study-CSS/blink-2018-6-20/index.html)
-11. [一直卡通鹦鹉](https://astak16.github.io/Study-CSS/parrot-2018-6-21/index.html)
+8. 用纯 CSS 描述程序员的生活： [code](https://astak16.github.io/Study-CSS/code-2018-6-19/index.html)
+9. 太阳、地球、月亮的运转模型：[revolution](https://astak16.github.io/Study-CSS/revolution-2018-6-19/index.html)
+10. 黑暗中闪烁的眼睛：[blink](https://astak16.github.io/Study-CSS/blink-2018-6-20/index.html)
+11. 卡通鹦鹉：[parrot](https://astak16.github.io/Study-CSS/parrot-2018-6-21/index.html)
+12. 彩虹背景文字：[rainbowText](https://astak16.github.io/Study-CSS/rainbowText-2018-6-22/index.html)
 
 
