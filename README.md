@@ -14,5 +14,6 @@
 10. 黑暗中闪烁的眼睛：[blink](https://astak16.github.io/Study-CSS/blink-2018-6-20/index.html)
 11. 卡通鹦鹉：[parrot](https://astak16.github.io/Study-CSS/parrot-2018-6-21/index.html)
 12. 彩虹背景文字：[rainbowText](https://astak16.github.io/Study-CSS/rainbowText-2018-6-22/index.html)
+13. 按钮文字滑动效果：[button](https://astak16.github.io/Study-CSS/button-2018-6-22/index.html)
 
 

@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.box{
+    border:2px solid black;
+    font-size:20px;
+    font-weight:bold;
+    padding:5px 20px;
+    overflow: hidden;
+}
+.box span{
+    display: inline-block;
+    color:blue;
+    transition:0.5s;
+}
+.box span:nth-child(odd){
+    transform:translateY(-200%);
+}
+.box span:nth-child(even){
+    transform:translateY(200%);
+}
+.box span::before{
+    content:attr(data-text);
+    color:red;
+    position:absolute;
+}
+.box span:nth-child(odd)::before{
+    transform:translateY(200%);
+}
+.box span:nth-child(even)::before{
+    transform:translateY(-200%);
+}
+.box:hover span{
+    transform:translateX(0);
+}
