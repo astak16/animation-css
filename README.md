@@ -16,5 +16,6 @@
 12. 彩虹背景文字：[rainbowText](https://astak16.github.io/Study-CSS/rainbowText-2018-6-22/index.html)
 13. 按钮文字滑动效果：[button](https://astak16.github.io/Study-CSS/button-2018-6-22/index.html)
 14. 矩形旋转`loader`特效：[rectangleLoader](https://astak16.github.io/Study-CSS/rectangleLoader-2018-6-23/index.html)
+15. 文字相框：[textphotoframe](https://astak16.github.io/Study-CSS/textphotoframe-2018-6-23/index.html)
 
 

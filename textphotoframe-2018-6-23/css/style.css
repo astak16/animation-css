@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body,
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    height:100vh;
+}
+.box{
+    width:20em;
+    height:20em;
+    background:linear-gradient(
+        -45deg,
+        white 0,
+        white 25%,
+        hotpink 25%,
+        hotpink 50%,
+        white 50%,
+        white 75%,
+        hotpink 75%,
+        hotpink 100%
+    );
+    background-size:1em;
+    animation:animate 10s linear infinite;
+}
+.content{
+    width:calc(100% - 10%);
+    height:calc(100% - 10%);
+    background:white;
+    position: relative;
+}
+.box,.content{
+    box-shadow:
+        0 0 5px rgba(0,0,0,1),
+        inset 0 0 3px rgba(0,0,0,1);
+    border-radius:5px;
+}
+.content p{
+    top:5em;
+    text-indent:2em;
+    text-align:justify;
+    position:absolute;
+    padding:0 2em;
+}
+.content span{
+    top:12em;
+    right:1em;
+    color:gray;
+    position: absolute;
+}
+@keyframes animate{
+    from{
+        background-position:0;
+    }
+    to{
+        background-position:100%;
+    }
+}
