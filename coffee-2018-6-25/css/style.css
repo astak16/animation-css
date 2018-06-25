@@ -1,0 +1,100 @@
+body{
+    height:100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(to right bottom, teal, steelblue)
+
+}
+*{
+    margin:0;
+    padding:0;
+}
+.pot,
+*,
+*::after,
+*::before{
+    box-sizing:border-box;
+}
+/* 白色背景 */
+.container{
+    width:20em;
+    height:20em;
+    background:white;
+    border-radius:50%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    animation:water 2s infinite alternate;
+    /* transition:0.5s; */
+}
+/* 白色四分之一环 */
+.container::after{
+    content:'';
+    border:0.5em solid;
+    border-color:transparent transparent transparent white;
+    height:7em;
+    width:7em;
+    position:absolute;
+    border-radius:50%;
+    z-index:1;
+}
+
+/* 壶身 */
+.pot{
+    height:10em;
+    width:10em;
+    background:#00C0FF;
+    border-radius:50%;
+    position:relative;
+    border-right:1em solid steelblue;
+}
+/* 上半个壶身 */
+.pot::before{
+    box-sizing:border-box;
+    content:'';
+    background:#FF68B6;
+    width:10em;
+    height:5em;
+    position:absolute;
+    border-radius:10em 10em 0 0;
+    border-right: 1em solid palevioletred;
+    /*z-index:1;*/
+}
+/* 壶口 */
+.pot::after{
+    content:'';
+    background:#FF68B6;
+    height:1em;
+    width:4em;
+    position:absolute;
+    top:-0.3em;
+    left:3em;
+}
+
+/*壶柄*/
+.handle{
+    z-index:1;
+    width:8em;
+    height:0.7em;
+    background:black;
+    border-radius:0.4em;
+    position:absolute;
+    top:1.5em;
+    left:3.5em;
+}
+.handle::before{
+    content:'';
+    background:black;
+    height:6em;
+    width:0.7em;
+    position:absolute;
+    border-radius:0.4em;
+    left:7.5em;
+}
+@keyframes water{
+    to{
+        transform:rotate(-35deg);
+    }
+}
