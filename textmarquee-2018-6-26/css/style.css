@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.box{
+    display: flex;
+}
+.box .inner{
+    width:15em;
+    height:3em;
+    line-height:3em;
+    text-align: center;
+    font-size:30px;
+    font-weight:bold;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.box .inner:first-child{
+    background: indianred;
+    color: darkred;
+    transform-origin:right;
+    transform: perspective(14.5em) rotateY(-50.7deg);
+}
+.box .inner:last-child{
+    background-color: lightcoral;
+    color: antiquewhite;
+    transform-origin:left;
+    transform: perspective(14.5em) rotateY(50.7deg);
+}
+.box .inner span{
+    position: absolute;
+    animation:animate 5s linear infinite;
+}
+.box .inner:first-child span{
+    animation-delay: 2.5s;
+    left:100%;
+}
+@keyframes animate{
+    from{
+        left:100%;
+    }
+    to{
+        left:-100%;
+    }
+}
