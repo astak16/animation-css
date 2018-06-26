@@ -1,0 +1,42 @@
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background:linear-gradient(to top, aqua,teal)
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.battery{
+    border:10px solid #191970;
+    height:100px;
+    width:200px;
+    border-radius:10px;
+    position: relative;
+    background:linear-gradient(to right,white,white);
+    background-size: 10% 80%;
+    background-repeat: no-repeat;
+    background-position:left 18px top 8px;
+    animation:battery 5s steps(8) infinite;
+}
+.battery::before{
+    content: '';
+    position: absolute;
+    height:60px;
+    width:25px;
+    background:#191970;
+    border-radius:0 5px 5px 0;
+    top:10px;
+    right:-25px;
+}
+@keyframes battery {
+    from{
+        background-size: 10% 80%;
+    }
+    to{
+        background-size: 90% 80%
+    }
+}
