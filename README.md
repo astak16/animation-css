@@ -23,5 +23,6 @@
 19. 一颗闪闪发光的璀璨钻石：[diamond](https://astak16.github.io/Study-CSS/diamond-2018-6-25/index.html)
 20. 3D 文字跑马灯特效：[textmarquee](https://astak16.github.io/Study-CSS/textmarquee-2018-6-26/index.html)
 21. 充电`loader`特效：[battery](https://astak16.github.io/Study-CSS/battery-2018-6-26/index.html)
+22. 按钮被瞄准的交互特效：[aim](https://astak16.github.io/Study-CSS/aim-2018-6-27/index.html)
 
 

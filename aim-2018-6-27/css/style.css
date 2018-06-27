@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background:black;
+    color:white;
+    height:100vh;
+}
+.box{
+    font-size:30px;
+    font-weight:700;
+    letter-spacing:0.3em;
+    height:2em;
+    width:9em;
+    line-height:2em;
+    text-align: center;
+    position: relative;
+    filter:blur(2px);
+    transition:1s;
+}
+.box:hover{
+    filter:blur(0.2px);
+}
+.box:hover::before,
+.box:hover span:not(:first-child){
+    animation:aim 1s linear infinite alternate;
+}
+
+
+
+.box::before{
+    content:'';
+    position: absolute;
+    width:3em;
+    height:3em;
+    border:1px solid red;
+    border-radius:50%;
+    top:-0.5em;
+    left:3em;
+    filter:opacity(0.2);
+
+}
+span:not(:first-child){
+    position: absolute;
+    filter:opacity(0.2);
+
+}
+span:nth-child(2){
+    border-top: 1px solid red;
+    height:1px;
+    width:3em;
+    top:50%;
+    left:0;
+}
+span:nth-child(3){
+    border-top: 1px solid red;
+    height:1px;
+    width:3em;
+    top:50%;
+    right:0;
+}
+span:nth-child(4){
+    border-left: 1px solid red;
+    height:3em;
+    width:1px;
+    top:-172%;
+    left:50%;
+}
+span:nth-child(5){
+    border-left: 1px solid red;
+    height:3em;
+    width:1px;
+    top:129%;
+    right:49%;
+}
+@keyframes aim {
+    from{
+        filter:opacity(0.2);
+    }
+    to{
+        filter:opacity(0.8);
+    }
+}
