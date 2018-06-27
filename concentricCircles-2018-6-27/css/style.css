@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+    background:black;
+}
+.circle{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size:30px;
+    border:0.5em solid;
+    width:10em;
+    height:10em;
+    position:relative;
+    border-color:red transparent blue transparent;
+    border-radius: 50%;
+    animation: circle 4s ease-in-out infinite alternate;
+}
+.circle::before{
+    content: '';
+    border:0.5em solid;
+    width:6em;
+    height:6em;
+    position:absolute;
+    border-radius: 50%;
+    border-color:orange transparent cyan transparent;
+    animation:circle 8s ease-in-out infinite alternate;
+}
+.circle::after{
+    content: '';
+    border:0.5em solid;
+    width:2em;
+    height:2em;
+    position:absolute;
+    border-color:yellow transparent limegreen transparent;
+    border-radius: 50%;
+    animation:circle 16s ease-in-out infinite alternate;
+}
+@keyframes circle {
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(1440deg);
+    }
+}

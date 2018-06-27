@@ -24,5 +24,6 @@
 20. 3D 文字跑马灯特效：[textmarquee](https://astak16.github.io/Study-CSS/textmarquee-2018-6-26/index.html)
 21. 充电`loader`特效：[battery](https://astak16.github.io/Study-CSS/battery-2018-6-26/index.html)
 22. 按钮被瞄准的交互特效：[aim](https://astak16.github.io/Study-CSS/aim-2018-6-27/index.html)
+23. 同心圆弧旋转 loader 特效：[concentricCircles](https://astak16.github.io/Study-CSS/concentricCircles-2018-6-27/index.html)
 
 
