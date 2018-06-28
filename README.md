@@ -26,6 +26,6 @@
 22. 按钮被瞄准的交互特效：[aim](https://astak16.github.io/Study-CSS/aim-2018-6-27/index.html)
 23. 同心圆弧旋转 loader 特效：[concentricCircles](https://astak16.github.io/Study-CSS/concentricCircles-2018-6-27/index.html)
 24. 荧光 loader 特效：[fluorescence](https://astak16.github.io/Study-CSS/fluorescence-2018-6-28/index.html)
-25. 文字断开的交互特效：[textBreak](https://astak16.github.io/Study-CSS/textBreak-2018-6-28/index.html)
+25. 文字断开的交互特效：[textBreak](https://astak16.github.io/Study-CSS/textBreak-2018-6-28/)
 
 
