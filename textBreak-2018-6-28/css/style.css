@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background: linear-gradient(brown, sandybrown);
+}
+.text{
+    position: relative;
+    font-size: 4em;
+    font-weight: bold;
+    /*letter-spacing: 0.2em;*/
+    padding:0 10px;
+    color:transparent;
+}
+.text::before,
+.text::after{
+    content:attr(data-text);
+    color:white;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    left:0;
+    padding:0 10px;
+
+}
+.text::before{
+    /*background:blue;*/
+    clip-path: polygon(0 0,60% 0,30% 100%,0 100%);  /* 左上水平 左上垂直，右上水平 右上垂直，右下水平 右下垂直，左下水平 左下垂直 */
+}
+.text::after{
+    /*background:black;*/
+    /*opacity: 0.5;*/
+    clip-path: polygon(60% 0,100% 0,100% 100%,30% 100%);
+}
+.text:hover::before{
+    left:-0.15em;
+    transform:rotate(-5deg);
+    top:-0.05em;
+}
+.text:hover::after{
+    left:0.15em;
+    transform:rotate(5deg);
+    top:-0.05em;
+}
