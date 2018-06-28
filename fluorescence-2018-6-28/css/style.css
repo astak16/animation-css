@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background: black;
+}
+:root{
+    --radius:2em;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    width:calc(var(--radius) * 2);
+    height:calc(var(--radius) * 2);
+    background: lime;
+    border-radius: 50%;
+    box-shadow:
+                0 0 0 calc(var(--radius) - 0.4em) black,
+                0 0 0 var(--radius) lime;
+    position:relative;
+}
+.circle::after,
+.circle::before{
+    content:'';
+    position:absolute;
+    width:calc(var(--radius) * 2 * 2);
+    height:calc(var(--radius) * 2 * 2);
+   border-radius: 50%;
+    border: 1px solid lime;
+    animation:circle 2s ease-out infinite;
+}
+.circle::after{
+    animation-delay:1s;
+}
+@keyframes circle{
+    from{
+        transform: scale(1);
+        filter:opacity(1)
+    }
+    to{
+        transform: scale(2);
+        filter:opacity(0)
+    }
+}
