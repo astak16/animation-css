@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b4412c-833d-4ad1-a1a6-6ffa89c9061b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradientBorder-2018-6-30/css/style.css" afterPath="$PROJECT_DIR$/gradientBorder-2018-6-30/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,8 +29,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gradientBorder-2018-6-30/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state relative-caret-position="396">
+              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -241,12 +241,12 @@
       <workItem from="1530143155180" duration="3104000" />
       <workItem from="1530162542665" duration="8000" />
       <workItem from="1530235847104" duration="2168000" />
-      <workItem from="1530317389076" duration="625000" />
+      <workItem from="1530317389076" duration="782000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50796000" />
+    <option name="totallyTimeSpent" value="50953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="32" y="106" width="1717" height="920" extended-state="0" />
@@ -582,8 +582,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gradientBorder-2018-6-30/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="396">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding />
         </state>
       </provider>

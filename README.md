@@ -28,6 +28,6 @@
 24. 荧光 loader 特效：[fluorescence](https://astak16.github.io/Study-CSS/fluorescence-2018-6-28/index.html)
 25. 文字断开的交互特效：[textBreak](https://astak16.github.io/Study-CSS/textBreak-2018-6-28/)
 26. 咖啡杯：[coffeeCup](https://astak16.github.io/Study-CSS/coffeecup-2018-6-29/index.html)
-27. 渐变边框：[gradientBorder](https://astak16.github.io/Study-CSS/gradientBorder-2018-6-30/index.html)
+27. 渐变边框：[gradientBorder](https://astak16.github.io/Study-CSS/gradientBorder-2018-6-30/)
 
 

@@ -16,6 +16,7 @@ body{
     align-items: center;
     border-radius:5px;
     animation: yyy 2s linear infinite alternate;
+    text-align: center;
 }
 .box::before{
     content:'';
