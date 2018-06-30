@@ -1,0 +1,10 @@
+body{  display:flex;  height:100vh;  justify-content:center;  align-items:center;  background:linear-gradient(dimgray, silver, silver, dimgray)  }
+.box{  font-size:30px;  text-transform:uppercase;  color:white;  font-weight:bold;  text-align:center;  }
+.box .schedule{  font-size:16px;  text-transform:capitalize;  font-weight:normal;  position:relative;  width:400px;  height:10px;  border:1px solid gray;  border-radius:2px;  margin-top:50px;  }
+.box .schedule .bg{  position:absolute;  background:rgba(0,0,0,0.2);  height:100%; /* width:50px; */  border-radius:2px;  }
+.box .schedule .content{  position:absolute;  top:-25px;  display:flex;  width:100%;  justify-content:space-between;  }
+.box .schedule .bg.one{  width:95%;  }
+.box .schedule .bg.two{  width:90%;  }
+.box .schedule .bg.three{  width:70%;  }
+.box .schedule .bg.four{  width:60%;  }
+.box .schedule .bg.five{  width:80%;  }
