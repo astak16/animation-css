@@ -1,0 +1,125 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(to top,black,gray)
+}
+.box{
+    display:flex;
+    justify-content:center;
+
+
+}
+.box .rect{
+    width:15em;
+    height:15em;
+    margin:2px;
+    position:relative;
+    /* padding: 1em 1em */
+
+}
+.box .rect span{
+    position:absolute;
+    display:inline-block;
+    box-sizing:border-box;
+}
+
+.box .zero span:nth-child(1){
+    width:80%;
+    height:15%;
+    background:skyblue;
+    left:10%;
+    top:15%;
+    filter: opacity(0.8);
+}
+.box .zero span:nth-child(2){
+    width:15%;
+    height:80%;
+    background:plum;
+    left:15%;
+    top:10%;
+    filter: opacity(0.8);
+}
+.box .zero span:nth-child(3){
+    width:80%;
+    height:15%;
+    background:lightcoral;
+    right:10%;
+    bottom:15%;
+    filter: opacity(0.8);
+}
+.box .zero span:nth-child(4){
+    width:15%;
+    height:80%;
+    background:peachpuff;
+    right:15%;
+    top:10%;
+    filter: opacity(0.8);
+}
+
+.box .four span:nth-child(1){
+    width:15%;
+    height:65%;
+    background:yellowgreen;
+    left:15%;
+    top:10%;
+    filter: opacity(0.8);
+}
+
+.box .four span:nth-child(2){
+
+    width:80%;
+    height:15%;
+    background:turquoise;
+    left:10%;
+    bottom:30%;
+    filter: opacity(0.8);
+}
+
+.box .four span:nth-child(3){
+    width:15%;
+    height:80%;
+    background:pink;
+    right:15%;
+    top:10%;
+    filter: opacity(0.8);
+}
+.box:hover .rect span{
+    background:white;
+    border:1px solid black;
+    filter: opacity(1);
+
+}
+.box:hover .four span:nth-child(1){
+    height:80%;
+    left:10%;
+}
+.box:hover .four span:nth-child(2){
+    bottom:75%;
+}
+.box:hover .four span:nth-child(3){
+    height:80%;
+    right:10%;
+}
+.box:hover .zero span:nth-child(1){
+    top:10%;
+}
+.box:hover .zero span:nth-child(2){
+    left:10%;
+}
+.box:hover .zero span:nth-child(3){
+
+    bottom:10%;
+}
+.box:hover .zero span:nth-child(4){
+
+    right:10%;
+}
+
+.box .rect span{
+    transition:all 0.3s linear;
+}
+.box:hover .rect span{
+    transition:all 0.3s linear;
+}
