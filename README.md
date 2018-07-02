@@ -32,5 +32,6 @@
 28. 炫酷的同心矩形旋转动画：[rectangularRotation](https://astak16.github.io/Study-CSS/rectangularRotation-2018-6-30/index.html)
 29. 技能条：[skillBar](https://astak16.github.io/Study-CSS/skillBar-2018-7-1/index.html)
 30. 404 文字变形为 NON 文字的交互特效：[textInteraction](https://astak16.github.io/Study-CSS/textInteraction-2018-7-1/index.html)
+31. 腰斩文字特效：[textualEffects](https://astak16.github.io/Study-CSS/textualEffects-2018-7-2/index.html)
 
 
