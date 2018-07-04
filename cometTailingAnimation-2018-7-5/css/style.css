@@ -1,0 +1,65 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:black;
+}
+.box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+.comet1{
+    height:10em;
+    width:10em;
+    border-style: solid ;
+    border-radius:50%;
+    border-color: green  transparent ;
+    border-width:1px 1px 0 0;
+    position:absolute;
+    animation:animate 3s linear infinite;
+}
+.comet1::before{
+    content:'';
+    width:1em;
+    height:1em;
+    background:green;
+    position:absolute;
+    border-radius:50%;
+    right:1em;
+    top:1em;
+    box-shadow:0 0 20px rgba(0,255,0,1);
+}
+.comet{
+    height:6em;
+    width:6em;
+    border-style: solid ;
+    border-radius:50%;
+    border-color:yellow transparent;
+    border-width:  1px 0  0 1px;
+    position:absolute;
+    animation:animate2 3s linear infinite;
+}
+.comet::before{
+    content:'';
+    width:1em;
+    height:1em;
+    background:yellow;
+    position:absolute;
+    border-radius:50%;
+    left:0.5em;
+    top:0.5em;
+    box-shadow:0 0 20px rgba(255,255,0,1);
+}
+@keyframes animate{
+    to{
+        transform:rotate(360deg)
+    }
+}
+@keyframes animate2{
+    to{
+        transform:rotate(-360deg)
+    }
+}
