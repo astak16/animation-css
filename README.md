@@ -37,5 +37,6 @@
 33. 文本滑动特效的 UI 界面：[TextSlide](https://astak16.github.io/Study-CSS/TextSlide-2018-7-3/index.html)
 34. 美丽的彩虹条纹文字：[rainbowStripeText](https://astak16.github.io/Study-CSS/rainbowStripeText-2018-7-3/index.html)
 35. 反色填充特效菜单：[invertedFillEffect](https://astak16.github.io/Study-CSS/invertedFillEffect-2018-7-4/)
+36. 层叠海浪特效：[cascadingWaveEffects-2018-7-4](https://astak16.github.io/Study-CSS/cascadingWaveEffects-2018-7-4/index.html)
 
 
