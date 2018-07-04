@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b4412c-833d-4ad1-a1a6-6ffa89c9061b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/invertedFillEffect-2018-7-4/index.html" afterPath="$PROJECT_DIR$/invertedFillEffect-2018-7-4/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,20 +17,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/新建文件夹/index.html">
+        <entry file="file://$PROJECT_DIR$/invertedFillEffect-2018-7-4/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/新建文件夹/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1298">
-              <caret line="59" column="1" lean-forward="false" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+              <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -52,7 +42,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dd/index.html" />
         <option value="$PROJECT_DIR$/loading-2018-6-16/index.html" />
         <option value="$PROJECT_DIR$/loading-2018-6-16/css/style.css" />
         <option value="$PROJECT_DIR$/signboard-2018-6-17/index.html" />
@@ -103,6 +92,7 @@
         <option value="$PROJECT_DIR$/textInteraction-2018-7-1/css/style.css" />
         <option value="$PROJECT_DIR$/新建文件夹/css/style.css" />
         <option value="$PROJECT_DIR$/新建文件夹/index.html" />
+        <option value="$PROJECT_DIR$/invertedFillEffect-2018-7-4/index.html" />
       </list>
     </option>
   </component>
@@ -151,13 +141,7 @@
             <path>
               <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="新建文件夹" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="新建文件夹" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="invertedFillEffect-2018-7-4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -236,12 +220,12 @@
       <workItem from="1530514021205" duration="10000" />
       <workItem from="1530581883570" duration="1456000" />
       <workItem from="1530610680620" duration="8000" />
-      <workItem from="1530663830723" duration="58000" />
+      <workItem from="1530663830723" duration="284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56541000" />
+    <option name="totallyTimeSpent" value="56767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1026" extended-state="6" />
@@ -276,13 +260,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/signboard-2018-6-17/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="49" lean-forward="false" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code-2018-6-18/index.html" />
     <entry file="file://$PROJECT_DIR$/code-2018-6-18/css/style.css" />
     <entry file="file://$PROJECT_DIR$/code-2018-6-19/README.md">
@@ -583,6 +560,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invertedFillEffect-2018-7-4/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
           <folding />
         </state>
       </provider>
