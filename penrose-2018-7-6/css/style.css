@@ -1,0 +1,78 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+     background:black;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.penrose{
+    /*border:1px solid white;*/
+    font-size:8px;
+    height:20em;
+    width:20em;
+    position:relative;
+    animation:animate 5s linear infinite;
+    transform-origin:66% 66%;
+}
+.penrose span{
+
+    position:absolute;
+    height:100%;
+    width:100%;
+    background:currentcolor;
+
+    clip-path:polygon(
+            57% 0,
+            75% 0,
+            26% 85%,
+            89.5% 85%,
+            98.4% 100%,
+            0 100%
+    )
+}
+.penrose span:nth-child(1){
+    filter:brightness(1);
+    transform:rotate(0);
+}
+.penrose span:nth-child(2){
+    transform:rotate(120deg);
+    filter:brightness(0.66);
+    top:18.2%;
+    left:43.2%;
+    /* display:none; */
+
+}
+.penrose span:nth-child(3){
+    transform:rotate(240deg);
+    filter:brightness(0.33);
+    top:46.5%;
+    left:5.9%;
+    /* display:none */
+}
+@keyframes animate{
+    0%{
+        transform:rotate(0deg);
+        color:red;
+    }
+    20%{
+        color:orange;
+    }
+    40%{
+        color:yellow;
+    }
+    60%{
+        color:lime;
+    }
+    80%{
+        color:violet;
+    }
+    100%{
+        transform:rotate(360deg);
+        color:red;
+    }
+}

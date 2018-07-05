@@ -40,6 +40,6 @@
 36. 层叠海浪特效：[cascadingWaveEffects](https://astak16.github.io/Study-CSS/cascadingWaveEffects-2018-7-4/index.html)
 37. 慧星拖尾效果的 loader 动画：[cometTailingAnimation](https://astak16.github.io/Study-CSS/cometTailingAnimation-2018-7-5/)
 38. 按钮被从纸上掀起的立体效果：[buttonPickUp](https://astak16.github.io/Study-CSS/buttonPickUp-2018-7-5/)
-39. 彩虹 loading 特效：[rainbowLoading](https://astak16.github.io/Study-CSS/rainbowLoading-2018-7-6/index.html)
+39. 彩虹 loading 特效：[rainbowLoading](https://astak16.github.io/Study-CSS/rainbowLoading-2018-7-6/)
 
 
