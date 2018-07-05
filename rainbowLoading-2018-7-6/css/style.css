@@ -1,0 +1,77 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:black;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.aaa{
+    width:340px;
+    height:170px;
+    overflow:hidden;
+}
+.box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    height:340px;
+    width:340px;
+}
+.box .rainbow{
+    position:absolute;
+    overflow:hidden;
+    height:calc(100% - 40px * (var(--n) - 1));
+    width:calc(100% - 40px * (var(--n) - 1));
+    border:20px solid var(--color);
+    border-bottom-color:transparent;
+    border-right-color:transparent;
+    border-radius:50%;
+    transform:rotate(45deg);
+    animation:animate 3s infinite;
+    animation-delay:calc(var(--n) * 0.05s);
+
+}
+
+.box .rainbow:nth-child(1){
+    --color:violet;
+    --n:7;
+}
+.box .rainbow:nth-child(2){
+    --color:skyblue;
+    --n:6;
+}
+.box .rainbow:nth-child(3){
+    --color: cyan;
+    --n:5;
+}
+.box .rainbow:nth-child(4){
+    --color:lime;
+    --n:4;
+}
+.box .rainbow:nth-child(5){
+    --color:yellow;
+    --n:3;
+}
+.box .rainbow:nth-child(6){
+    --color:orange;
+    --n:2;
+}
+.box .rainbow:nth-child(7){
+    --color:red;
+    --n:1;
+}
+
+@keyframes animate{
+    from{
+        transform:rotate(45deg);
+    }
+    to{
+        transform:rotate(405deg);
+    }
+}
