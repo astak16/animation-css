@@ -38,6 +38,7 @@
 34. 美丽的彩虹条纹文字：[rainbowStripeText](https://astak16.github.io/Study-CSS/rainbowStripeText-2018-7-3/index.html)
 35. 反色填充特效菜单：[invertedFillEffect](https://astak16.github.io/Study-CSS/invertedFillEffect-2018-7-4/)
 36. 层叠海浪特效：[cascadingWaveEffects](https://astak16.github.io/Study-CSS/cascadingWaveEffects-2018-7-4/index.html)
-37. 慧星拖尾效果的 loader 动画：[cometTailingAnimation](https://astak16.github.io/Study-CSS/cometTailingAnimation-2018-7-5/index.html)
+37. 慧星拖尾效果的 loader 动画：[cometTailingAnimation](https://astak16.github.io/Study-CSS/cometTailingAnimation-2018-7-5/)
+38. 按钮被从纸上掀起的立体效果：[buttonPickUp-2018-7-5](https://astak16.github.io/Study-CSS/buttonPickUp-2018-7-4/index.html)
 
 
