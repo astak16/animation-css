@@ -41,6 +41,7 @@
 37. 慧星拖尾效果的 loader 动画：[cometTailingAnimation](https://astak16.github.io/Study-CSS/cometTailingAnimation-2018-7-5/)
 38. 按钮被从纸上掀起的立体效果：[buttonPickUp](https://astak16.github.io/Study-CSS/buttonPickUp-2018-7-5/)
 39. 彩虹 loading 特效：[rainbowLoading](https://astak16.github.io/Study-CSS/rainbowLoading-2018-7-6/)
-40. 彭罗斯三角形：[penrose]https://astak16.github.io/Study-CSS/penrose-2018-7-6/)
+40. 彭罗斯三角形：[penrose](https://astak16.github.io/Study-CSS/penrose-2018-7-6/)
+41. 乒乓球对打动画：[pingPong-2018-7-7](https://astak16.github.io/Study-CSS/pingPong-2018-7-7/index.html)
 
 

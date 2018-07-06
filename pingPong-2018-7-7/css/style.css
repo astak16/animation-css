@@ -1,0 +1,67 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(silver, dimgray);
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.court{
+    color:white;
+    border:1em solid currentColor;
+    height:20em;
+    width:20em;
+    /*background-image:*/
+            /*linear-gradient(dimgray 1px, transparent 0),*/
+            /*linear-gradient(90deg, dimgray 1px, transparent 0);*/
+    /*background-size:1em 1em;*/
+    position:relative;
+}
+.left-paddle,
+.right-paddle{
+    background:currentColor;
+    height:4em;
+    width:1em;
+    position:absolute;
+    animation: 1s linear infinite alternate;
+}
+.left-paddle{
+    top:1em;
+    left:1em;
+    animation-name:left-paddle
+}
+.right-paddle{
+    bottom:1em;
+    right:1em;
+    animation-name:right-paddle;
+}
+.ball{
+    height:1em;
+    width:1em;
+    border-radius:50%;
+    background:currentColor;
+    position:absolute;
+    top:calc(50% - 0.5em);
+    left:2em;
+    animation:round 1s linear infinite alternate;
+    animation-delay:0.5s;
+}
+@keyframes left-paddle{
+    to{
+        transform:translateY(300%);
+    }
+}
+@keyframes right-paddle{
+    to{
+        transform:translateY(-300%);
+    }
+}
+@keyframes round{
+    to{
+        left:15em;
+    }
+}
