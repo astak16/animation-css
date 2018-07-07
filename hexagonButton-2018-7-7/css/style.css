@@ -1,0 +1,70 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(silver, dimgray);
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+ul>li{
+    list-style:none;
+}
+nav{
+    margin:0 50px 0 0;
+    --h:3em;
+
+}
+nav:nth-child(1){
+    --color:#333;
+    --rate:2;
+}
+nav:nth-child(2){
+    --color:brown;
+    --rate:1.732;
+}
+nav:nth-child(3){
+    --color:green;
+    --rate:1.5;
+}
+nav ul li{
+    margin:50px 0 0 0;
+    background:var(--color);
+    height:var(--h);
+    width:calc(var(--h) * var(--rate));
+    line-height:var(--h);
+    text-align:center;
+    font-size:20px;
+    color:white;
+    /* letter-spacing:0.2em; */
+    position:relative;
+}
+nav ul li::after,
+nav ul li::before{
+    content:'';
+    position:absolute;
+    height:inherit;
+    width:inherit;
+    background:inherit;
+    left:0;
+    z-index:-1;
+    transition:0.3s;
+    filter:opacity(0);
+}
+nav ul li::before{
+    transform:rotate(60deg) translate(calc(-2 * var(--h)));
+}
+nav ul li::after{
+    transform:rotate(-60deg) translate(calc(2 * var(--h)));
+}
+nav ul li:hover::before{
+    transform:rotate(60deg) translate(0);
+    filter:opacity(1);
+}
+nav ul li:hover::after{
+    transform:rotate(-60deg) translate(0);
+    filter:opacity(1);
+}
