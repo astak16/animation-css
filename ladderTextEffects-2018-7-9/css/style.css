@@ -1,0 +1,47 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:black;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+div p{
+    color:white;
+    font-weight:bold;
+    height:1em;
+    border:1px dashed lime;
+    font-size:60px;
+    overflow: hidden;
+    text-transform: uppercase;
+    text-align: center;
+}
+div p span{
+    display:block;
+    line-height:1em;
+    animation:animate 2s infinite linear alternate;
+}
+div p:nth-child(odd){
+    transform:skewY(-30deg) skewX(45deg) scale(1.4);
+}
+
+div p:nth-child(even){
+    transform:skewY(-30deg) scale(1.4);
+}
+div p:nth-child(2){
+    margin-left:1.4em;
+}
+
+div p:nth-child(3){
+    margin-left:2.8em;
+}
+
+@keyframes animate{
+    to{
+        transform:translateY(-100%);
+    }
+}
