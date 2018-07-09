@@ -47,5 +47,6 @@
 43. 文本前后穿梭的边框：[textBorder](https://astak16.github.io/Study-CSS/textBorder-2018-7-8/index.html)
 44. 牛奶文字：[milkText](https://astak16.github.io/Study-CSS/milkText-2018-7-8/index.html)
 45. 阶梯文字特效：[ladderTextEffects](https://astak16.github.io/Study-CSS/ladderTextEffects-2018-7-9/index.html)
+46. 彩虹心特效：[rainbowHeartEffect-2018-7-9](https://astak16.github.io/Study-CSS/rainbowHeartEffect-2018-7-9/index.html))
 
 
