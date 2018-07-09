@@ -14,7 +14,7 @@ div p{
     color:white;
     font-weight:bold;
     height:1em;
-    border:1px dashed lime;
+    /*border:1px dashed lime;*/
     font-size:60px;
     overflow: hidden;
     text-transform: uppercase;
