@@ -1,0 +1,83 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:black
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.equalizer{
+    border:1px dashed lime;
+    height:300px;
+    width:300px;
+    display:flex;
+    justify-content:space-between;
+}
+.equalizer span{
+    display:inline-block;
+    background: linear-gradient(red, yellow, green);
+    height:100%;
+    width:40px;
+    animation:animate 4s linear infinite calc(var(--n) * 0.4s * -1);
+}
+.equalizer span:nth-child(1){
+    --n:1
+}
+.equalizer span:nth-child(2){
+    --n:2
+}
+.equalizer span:nth-child(3){
+    --n:3
+}
+.equalizer span:nth-child(4){
+    --n:4
+}
+.equalizer span:nth-child(5){
+    --n:5
+}
+
+@keyframes animate{
+    0%, 100% {
+        clip-path: inset(27% 0 0 0);
+    }
+
+    10% {
+        clip-path: inset(17% 0 0 0);
+    }
+
+    20% {
+        clip-path: inset(55% 0 0 0);
+    }
+
+    30% {
+        clip-path: inset(30% 0 0 0);
+    }
+
+    40% {
+        clip-path: inset(13% 0 0 0);
+    }
+
+    50% {
+        clip-path: inset(38% 0 0 0);
+    }
+
+    60% {
+        clip-path: inset(80% 0 0 0);
+    }
+
+    70% {
+        clip-path: inset(21% 0 0 0);
+    }
+
+    80% {
+        clip-path: inset(0% 0 0 0);
+    }
+
+    90% {
+        clip-path: inset(36% 0 0 0);
+    }
+}v

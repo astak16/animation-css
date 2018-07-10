@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b4412c-833d-4ad1-a1a6-6ffa89c9061b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ladderTextEffects-2018-7-9/css/style.css" afterPath="$PROJECT_DIR$/ladderTextEffects-2018-7-9/css/style.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aaa/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,21 +16,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ladderTextEffects-2018-7-9/css/style.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aaa/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="242">
+              <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rainbowHeartEffect-2018-7-9/css/style.css">
+        <entry file="file://$PROJECT_DIR$/aaa/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1716">
-              <caret line="78" column="1" lean-forward="false" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+            <state relative-caret-position="242">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -106,10 +104,10 @@
         <option value="$PROJECT_DIR$/textBorder-2018-7-8/css/style.css" />
         <option value="$PROJECT_DIR$/新建文件夹/index.html" />
         <option value="$PROJECT_DIR$/新建文件夹/css/style.css" />
-        <option value="$PROJECT_DIR$/aaa/css/style.css" />
-        <option value="$PROJECT_DIR$/aaa/index.html" />
         <option value="$PROJECT_DIR$/rainbowHeartEffect-2018-7-9/css/style.css" />
         <option value="$PROJECT_DIR$/ladderTextEffects-2018-7-9/css/style.css" />
+        <option value="$PROJECT_DIR$/aaa/css/style.css" />
+        <option value="$PROJECT_DIR$/aaa/index.html" />
       </list>
     </option>
   </component>
@@ -126,9 +124,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="252" />
-    <option name="y" value="113" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="402" />
+    <option name="y" value="104" />
     <option name="width" value="1217" />
     <option name="height" value="912" />
   </component>
@@ -147,6 +145,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -154,6 +153,17 @@
             <path>
               <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="aaa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="aaa" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
@@ -170,12 +180,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
@@ -258,14 +267,15 @@
       <workItem from="1531137246999" duration="1476000" />
       <workItem from="1531140674658" duration="1227000" />
       <workItem from="1531179140207" duration="8000" />
+      <workItem from="1531223587956" duration="185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66504000" />
+    <option name="totallyTimeSpent" value="66689000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="252" y="113" width="1217" height="912" extended-state="0" />
+    <frame x="402" y="104" width="1217" height="912" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30813476" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -614,8 +624,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/新建文件夹/index.html" />
     <entry file="file://$PROJECT_DIR$/新建文件夹/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/aaa/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/aaa/index.html" />
     <entry file="file://$PROJECT_DIR$/rainbowHeartEffect-2018-7-9/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1716">
@@ -626,8 +634,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ladderTextEffects-2018-7-9/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
+        <state relative-caret-position="326">
           <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aaa/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aaa/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="21" />
           <folding />
         </state>
       </provider>

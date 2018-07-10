@@ -49,5 +49,6 @@
 45. 阶梯文字特效：[ladderTextEffects](https://astak16.github.io/Study-CSS/ladderTextEffects-2018-7-9/index.html)
 46. 彩虹心特效：[rainbowHeartEffect](https://astak16.github.io/Study-CSS/rainbowHeartEffect-2018-7-9/index.html)
 47. 记事本翻页动画：[notepadPageAnimation](https://astak16.github.io/Study-CSS/notepadPageAnimation-2018-7-10/index.html)
+48. 均衡器：[equalizer](https://astak16.github.io/Study-CSS/equalizer-2018-7-10/index.html)
 
 
