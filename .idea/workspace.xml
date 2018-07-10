@@ -4,6 +4,7 @@
     <list default="true" id="24b4412c-833d-4ad1-a1a6-6ffa89c9061b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ladderTextEffects-2018-7-9/css/style.css" afterPath="$PROJECT_DIR$/ladderTextEffects-2018-7-9/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,20 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ladderTextEffects-2018-7-9/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="322">
+              <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rainbowHeartEffect-2018-7-9/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
+            <state relative-caret-position="1716">
               <caret line="78" column="1" lean-forward="false" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
               <folding />
             </state>
@@ -105,10 +106,10 @@
         <option value="$PROJECT_DIR$/textBorder-2018-7-8/css/style.css" />
         <option value="$PROJECT_DIR$/新建文件夹/index.html" />
         <option value="$PROJECT_DIR$/新建文件夹/css/style.css" />
-        <option value="$PROJECT_DIR$/ladderTextEffects-2018-7-9/css/style.css" />
         <option value="$PROJECT_DIR$/aaa/css/style.css" />
         <option value="$PROJECT_DIR$/aaa/index.html" />
         <option value="$PROJECT_DIR$/rainbowHeartEffect-2018-7-9/css/style.css" />
+        <option value="$PROJECT_DIR$/ladderTextEffects-2018-7-9/css/style.css" />
       </list>
     </option>
   </component>
@@ -146,7 +147,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,24 +158,24 @@
             <path>
               <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="rainbowHeartEffect-2018-7-9" type="462c0819:PsiDirectoryNode" />
+              <item name="ladderTextEffects-2018-7-9" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="rainbowHeartEffect-2018-7-9" type="462c0819:PsiDirectoryNode" />
+              <item name="ladderTextEffects-2018-7-9" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../js" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
@@ -255,12 +256,13 @@
       <workItem from="1531008910390" duration="979000" />
       <workItem from="1531021131008" duration="11000" />
       <workItem from="1531137246999" duration="1476000" />
-      <workItem from="1531140674658" duration="1073000" />
+      <workItem from="1531140674658" duration="1227000" />
+      <workItem from="1531179140207" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66342000" />
+    <option name="totallyTimeSpent" value="66504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="252" y="113" width="1217" height="912" extended-state="0" />
@@ -612,34 +614,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/新建文件夹/index.html" />
     <entry file="file://$PROJECT_DIR$/新建文件夹/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/aaa/css/style.css">
+    <entry file="file://$PROJECT_DIR$/aaa/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/aaa/index.html" />
+    <entry file="file://$PROJECT_DIR$/rainbowHeartEffect-2018-7-9/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aaa/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="1716">
+          <caret line="78" column="1" lean-forward="false" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ladderTextEffects-2018-7-9/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rainbowHeartEffect-2018-7-9/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="78" column="1" lean-forward="false" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="1" />
+        <state relative-caret-position="322">
+          <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
           <folding />
         </state>
       </provider>

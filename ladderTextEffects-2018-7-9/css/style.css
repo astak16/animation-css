@@ -35,7 +35,6 @@ div p:nth-child(even){
 div p:nth-child(2){
     margin-left:1.4em;
 }
-
 div p:nth-child(3){
     margin-left:2.8em;
 }
@@ -45,3 +44,4 @@ div p:nth-child(3){
         transform:translateY(-100%);
     }
 }
+

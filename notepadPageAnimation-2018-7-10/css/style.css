@@ -1,0 +1,116 @@
+body{
+    height:100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background:lightblue;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.book{
+    --sw:0.3em;
+    height:10em;
+    width:15em;
+    font-size:20px;
+    background:lightyellow;
+    border:var(--sw) solid cadetblue;
+    border-radius:var(--sw);
+    position:relative;
+}
+.book .page{
+    height:inherit;
+    width:calc(50% + var(--sw) * 1.5);
+    background: inherit;
+    border:inherit;
+    border-radius: inherit;
+    padding:8% 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    position:absolute;
+    top:calc(var(--sw) * -1);
+    right:calc(var(--sw) * -1);
+    animation:page 3s linear infinite;
+    transform-origin:left;
+    transform-style:preserve-3d;
+}
+.book .page span {
+    display: block;
+    border-top: inherit;
+    border-radius: inherit;
+    width: 100%;
+    animation: 3s linear infinite;
+    transform-origin:left;
+    transform:scaleX(0);
+}
+.book .page span:nth-child(1){
+    animation-name:animate-1;
+}
+.book .page span:nth-child(2){
+    animation-name:animate-2;
+}
+.book .page span:nth-child(3){
+    animation-name:animate-3;
+}
+.book .page span:nth-child(4){
+    animation-name:animate-4;
+}
+.book .page span:nth-child(5){
+    animation-name:animate-5;
+}
+
+
+@keyframes page {
+    0%,55%{
+       transform:rotateY(0) translateX(0) skewY(0);
+    }
+    75%{
+        transform:rotateY(-90deg) translateX(-0.15em) skewY(-20deg);
+    }
+    85%,100%{
+        transform:rotateY(-180deg) translateX(-0.3em) skewY(0);
+    }
+}
+@keyframes animate-1 {
+    0%{
+        transform:scaleX(0);
+    }
+    10%,100%{
+        transform:scaleX(1);
+    }
+}
+@keyframes animate-2 {
+    10%{
+        transform:scaleX(0);
+    }
+   20%,100%{
+        transform:scaleX(1);
+    }
+}
+@keyframes animate-3 {
+    20%{
+        transform:scaleX(0);
+    }
+    30%,100%{
+        transform:scaleX(1);
+    }
+}
+@keyframes animate-4 {
+    30%{
+        transform:scaleX(0);
+    }
+    40%,100%{
+        transform:scaleX(1);
+    }
+}
+@keyframes animate-5 {
+    40%{
+        transform:scaleX(0);
+    }
+    50%,100%{
+        transform:scaleX(1);
+    }
+}
