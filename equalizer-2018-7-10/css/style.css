@@ -3,7 +3,7 @@ body{
     justify-content:center;
     align-items:center;
     height:100vh;
-    background:black
+    /*background:black*/
 }
 *{
     margin:0;
@@ -11,7 +11,7 @@ body{
     box-sizing:border-box;
 }
 .equalizer{
-    border:1px dashed lime;
+    /*border:1px dashed lime;*/
     height:300px;
     width:300px;
     display:flex;
