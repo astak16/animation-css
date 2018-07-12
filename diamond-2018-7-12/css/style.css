@@ -1,0 +1,86 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:black;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.loader{
+    font-size:12px;
+    /* border:1px dashed lime; */
+    height:24em;
+    width:24em;
+    /* background-image:
+      linear-gradient(gray 1px,transparent 0),
+      linear-gradient(90deg,gray 1px,transparent 0); */
+    background-size:5em 5em;
+    transform:rotate(-45deg);
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-between;
+}
+.rect{
+    display:block;
+    height:5em;
+    width:5em;
+    /* background:lime; */
+    animation:animate 2s linear infinite calc(var(--c) * 0.1s);
+    transform:scale(0);
+}
+.rect:nth-child(1){
+    background:tomato;
+    --c:1;
+}
+.rect:nth-child(16){
+    background:tomato;
+    --c:7;
+}
+
+.rect:nth-child(2),
+.rect:nth-child(5){
+    background:limegreen;
+    --c:2;
+}
+
+.rect:nth-child(12),
+.rect:nth-child(15){
+    background:limegreen;
+    --c:6;
+}
+.rect:nth-child(3),
+.rect:nth-child(6),
+.rect:nth-child(9){
+    background:gold;
+    --c:3;
+}
+.rect:nth-child(8),
+.rect:nth-child(11),
+.rect:nth-child(14){
+    background:gold;
+    --c:5;
+}
+.rect:nth-child(4),
+.rect:nth-child(7){
+    background:skyblue;
+    --c:4;
+}
+.rect:nth-child(10),
+.rect:nth-child(13){
+    background:skyblue;
+    --c:4;
+}
+@keyframes animate{
+    0%,20%,100%{
+        transform:scale(0);
+    }
+    40%,80%{
+        transform:scale(1);
+    }
+
+}
