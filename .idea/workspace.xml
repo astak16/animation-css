@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b4412c-833d-4ad1-a1a6-6ffa89c9061b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/radar-2018-7-13/index.htm" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,21 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.htm" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/aaa/index.htm">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/radar-2018-7-13/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aaa/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1254">
-              <caret line="57" column="1" lean-forward="false" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+            <state relative-caret-position="176">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -77,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/blink-2018-6-20/css/style.css" />
         <option value="$PROJECT_DIR$/rainbowBackground-2018-6-22/css/style.css" />
         <option value="$PROJECT_DIR$/rainbowBackground-2018-6-22/index.html" />
         <option value="$PROJECT_DIR$/button-2018-6-22/index.html" />
@@ -128,6 +117,7 @@
         <option value="$PROJECT_DIR$/butterfly-2018-7-13/index.html" />
         <option value="$PROJECT_DIR$/aaa/css/style.css" />
         <option value="$PROJECT_DIR$/aaa/index.htm" />
+        <option value="$PROJECT_DIR$/radar-2018-7-13/index.html" />
       </list>
     </option>
   </component>
@@ -176,24 +166,7 @@
             <path>
               <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="louverTextEffect-2018-7-11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="louverTextEffect-2018-7-11" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="radar-2018-7-13" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -295,12 +268,12 @@
       <workItem from="1531313211626" duration="119000" />
       <workItem from="1531385038416" duration="2768000" />
       <workItem from="1531394723038" duration="24000" />
-      <workItem from="1531475041485" duration="684000" />
+      <workItem from="1531475041485" duration="893000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75741000" />
+    <option name="totallyTimeSpent" value="75950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="221" y="36" width="1217" height="912" extended-state="0" />
@@ -353,13 +326,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/coffee-2018-6-25/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/coffeecup-2018-6-29/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -668,14 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/butterfly-2018-7-13/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aaa/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1254">
@@ -688,6 +646,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/butterfly-2018-7-13/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/radar-2018-7-13/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
