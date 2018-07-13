@@ -54,5 +54,7 @@
 50. 百叶窗文字效果：[louverTextEffect](https://astak16.github.io/Study-CSS/louverTextEffect-2018-7-11/)
 51. 菱形 loader 动画：[diamond](https://astak16.github.io/Study-CSS/diamond-2018-7-12/index.html)
 52. 反弹的小球：[reboundBall](https://astak16.github.io/Study-CSS/reboundBall-2018-7-12/index.html)
+53. 蝴蝶：[butterfly](https://astak16.github.io/Study-CSS/butterfly-2018-7-13/index.html)
+54. 雷达：[radar](https://astak16.github.io/Study-CSS/radar-2018-7-13/index.html)
 
 

@@ -1,0 +1,58 @@
+body{
+    height:100vh;
+    background:radial-gradient(circle at center,silver,black);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.radar{
+    height:10em;
+    width:10em;
+    font-size:28px;
+    position:relative;
+    background:linear-gradient(
+            90deg,
+            transparent 49.8%,
+            darkgreen 49.8%,
+            darkgreen 50.2%,
+            transparent 50.2%),
+    linear-gradient(
+            transparent 49.75%,
+            darkgreen 49.75%,
+            darkgreen 50.25%,
+            transparent 50.25%),
+    repeating-radial-gradient(
+            transparent 0,
+            transparent 0.95em,
+            darkgreen 0.95em,
+            darkgreen 1em
+    ),
+    linear-gradient(black, black);
+    border-radius:50%;
+}
+.radar::before{
+    content:'';
+    position:absolute;
+    height:5em;
+    width:5em;
+    background:linear-gradient(
+            -45deg,
+            rgba(0, 0, 0,0) 50%,
+            rgba(0, 192, 0, 1) 100%
+
+    );
+    top:5em;
+    border-radius:0 0 0 100% ;
+    animation:animate 5s linear infinite;
+    transform-origin:100% 0
+}
+@keyframes animate{
+    to{
+        transform:rotate(360deg);
+    }
+}
