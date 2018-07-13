@@ -1,0 +1,82 @@
+body{
+    height:100vh;
+    background:linear-gradient(gray,lightyellow,gray);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.butterfly{
+    /* border:1px solid red; */
+    width:24em;
+    height:18em;
+    border-radius:1.5em;
+    position:relative;
+}
+.butterfly::before{
+    content:'';
+    box-sizing:border-box;
+    position:absolute;
+    width:24em;
+    height:18em;
+    border:2em solid burlywood;
+    background:lightyellow;
+    border-radius:3em;
+    box-shadow:
+            0 0.3em 2em 0.4em rgba(0,0,0,0.3),
+            inset 0.4em 0.4em 0.1em 0.5em rgba(0,0,0,0.4);
+}
+.butterfly::after{
+    content:'';
+    position:absolute;
+    width:14em;
+    height:8em;
+    background:black;
+    top:5em;
+    left:5em;
+    border:0.2em inset silver;
+
+}
+.butterfly .left,
+.butterfly .right {
+    top:12em;
+    left:20em;
+    font-size:8px;
+    position: absolute;
+    /* border:1px solid lime; */
+    width: 10em;
+    height: 10em;
+    z-index:1;
+
+}
+.butterfly .right{
+    transform:rotate(90deg) rotateY(180deg);
+}
+.butterfly span{
+    position:absolute;
+    border-radius:50%;
+}
+.butterfly span:nth-child(1){
+    height:7em;
+    width:4em;
+    background:gold;
+
+}
+.butterfly span:nth-child(2){
+    height:3em;
+    width:5em;
+    background:orangered;
+    top:5.5em;
+    left:-3em;
+    filter:opacity(0.5);
+}
+.butterfly span:nth-child(3){
+    height:6em;
+    width:6em;
+    border-right:0.3em solid orangered;
+    top:-0.5em;
+}
