@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24b4412c-833d-4ad1-a1a6-6ffa89c9061b" name="Default" comment="" />
+    <list default="true" id="24b4412c-833d-4ad1-a1a6-6ffa89c9061b" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aaa/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aaa/index.html" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,7 +20,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/butterfly-2018-7-13/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="0">
               <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
             </state>
@@ -44,21 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/aaa/index.html">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lego-2018-7-14/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+            <state relative-caret-position="462">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aaa/css/style.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lego-2018-7-14/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
-              <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -105,7 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/button-2018-6-22/index.html" />
         <option value="$PROJECT_DIR$/button-2018-6-22/css/style.css" />
         <option value="$PROJECT_DIR$/rectangleLoader-2018-6-23/index.html" />
         <option value="$PROJECT_DIR$/rectangleLoader-2018-6-23/css/style.css" />
@@ -156,6 +158,7 @@
         <option value="$PROJECT_DIR$/chess-2018-7-14/index.html" />
         <option value="$PROJECT_DIR$/aaa/css/style.css" />
         <option value="$PROJECT_DIR$/aaa/index.html" />
+        <option value="$PROJECT_DIR$/lego-2018-7-14/css/style.css" />
       </list>
     </option>
   </component>
@@ -204,29 +207,13 @@
             <path>
               <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa" type="462c0819:PsiDirectoryNode" />
+              <item name="lego-2018-7-14" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa" type="462c0819:PsiDirectoryNode" />
+              <item name="lego-2018-7-14" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="chess-2018-7-14" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="chess-2018-7-14" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="radar-2018-7-13" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -330,12 +317,12 @@
       <workItem from="1531394723038" duration="24000" />
       <workItem from="1531475041485" duration="893000" />
       <workItem from="1531482928898" duration="9000" />
-      <workItem from="1531560386784" duration="696000" />
+      <workItem from="1531560386784" duration="847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76655000" />
+    <option name="totallyTimeSpent" value="76806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="221" y="36" width="1217" height="912" extended-state="0" />
@@ -388,14 +375,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gradientBorder-2018-6-30/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rectangularRotation/index.html" />
     <entry file="file://$PROJECT_DIR$/rectangularRotation/css/style.css" />
     <entry file="file://$PROJECT_DIR$/skillBar-2018-7-1/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -676,7 +655,7 @@
     <entry file="file://$PROJECT_DIR$/aaa/index.htm" />
     <entry file="file://$PROJECT_DIR$/butterfly-2018-7-13/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="0">
           <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
@@ -698,14 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chess-2018-7-14/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aaa/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="652">
@@ -718,6 +689,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chess-2018-7-14/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lego-2018-7-14/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lego-2018-7-14/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
