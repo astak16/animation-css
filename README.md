@@ -56,5 +56,6 @@
 52. 反弹的小球：[reboundBall](https://astak16.github.io/Study-CSS/reboundBall-2018-7-12/index.html)
 53. 蝴蝶：[butterfly](https://astak16.github.io/Study-CSS/butterfly-2018-7-13/index.html)
 54. 雷达：[radar](https://astak16.github.io/Study-CSS/radar-2018-7-13/index.html)
+55. 国际象棋：[chess](https://astak16.github.io/Study-CSS/chess-2018-7-14/index.html)
 
 
