@@ -1,0 +1,109 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(to bottom right,#FAE2B4,#058281);
+    height:100vh;
+}
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+.toaster{
+    height:12em;
+    width:12em;
+    font-size:30px;
+    position:relative;
+    border-radius:50%;
+    background:white;
+    z-index:-1
+}
+.toaster > *{
+    position:absolute;
+}
+.body{
+    height:5em;
+    width:7em;
+    background:#2E8B57;
+    border-radius:1em;
+    bottom:2em;
+    left:2.5em;
+    border-right:0.5em solid #006400;
+    box-shadow:0 0 0.2em rgba(0,100,0,0.3);
+}
+.bread{
+    background:#FFD800;
+    height:2.5em;
+    width:4em;
+    border-radius:0.5em;
+    border-right:0.2em solid #DCA61B;
+    top:3em;
+    animation:animate 3s linear infinite alternate;
+    left:4em;
+    box-shadow:0 0 2em rgba(220,166,27,0.3);
+}
+
+.body::before{
+    box-sizing:border-box;
+    /* background:white; */
+    content:'';
+    border:0.2em solid;
+    height:2em;
+    width:6em;
+    position:absolute;
+    border-radius:1em;
+    border-color:transparent white transparent white;
+    transform:rotate(30deg);
+    top:1.6em;
+    left:0.4em;
+
+}
+.handle{
+    background:#FF6144;
+    height:0.7em;
+    width:2em;
+    border-radius:0 0.3em 0.3em 0;
+    top:5.5em;
+    right:1em;
+    z-index:-1;
+    box-shadow:0 0 2em rgba(255,97,68,0.3);
+    animation:animate 3s linear infinite alternate;
+}
+.button{
+    height:1em;
+    width:1em;
+    background:#FF6144;
+    border-radius:50%;
+    top:6em;
+    right:4.5em;
+    box-shadow:0 0 1em rgba(255,97,68,0.4);
+
+}
+.leg-right,
+.leg-left{
+    content:'';
+    height:2em;
+    width:0.7em;
+    background:#FF6144;
+    border-radius:0 0 0.1em 0.1em;
+    z-index:-1;
+    box-shadow:0 0 2em rgba(255,97,68,0.3);
+}
+
+.leg-left{
+    bottom:1em;
+    left:4em;
+}
+.leg-right{
+    bottom:1em;
+    right:4em;
+}
+@keyframes animate{
+    0%,20%{
+        transform:translateY(0);
+    }
+    80%,100%{
+        transform:translateY(2.5em);
+    }
+}

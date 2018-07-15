@@ -31,6 +31,8 @@ body{
     top:2em;
     border-right: 0.5em solid #DDA619;
     border-bottom: 0.5em solid #DDA619;
+    animation:animate 1s linear infinite alternate;
+    z-index:1;
 }
 .lid::before{
     content:'';
@@ -41,7 +43,7 @@ body{
     transform:rotate(45deg);
     width:3em;
     height:3em;
-    border:0.3em solid white;
+    border:0.3em solid;
     border-color:transparent transparent transparent white;
     border-radius:50%;
 }
@@ -73,7 +75,7 @@ body{
     transform:rotate(45deg);
     width:4em;
     height:4em;
-    border:0.3em solid white;
+    border:0.3em solid;
     border-color:transparent transparent white transparent;
     border-radius:50%;
 }
@@ -85,4 +87,9 @@ body{
     top:6em;
     left:1em;
     z-index:-1;
+}
+@keyframes animate{
+    to{
+        transform:translateY(-0.5em);
+    }
 }
