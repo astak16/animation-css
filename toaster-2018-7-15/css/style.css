@@ -17,7 +17,6 @@ body{
     position:relative;
     border-radius:50%;
     background:white;
-    z-index:-1
 }
 .toaster > *{
     position:absolute;
@@ -39,14 +38,13 @@ body{
     border-radius:0.5em;
     border-right:0.2em solid #DCA61B;
     top:3em;
-    animation:animate 3s linear infinite alternate;
+    /*animation:animate 3s linear infinite alternate;*/
     left:4em;
     box-shadow:0 0 2em rgba(220,166,27,0.3);
 }
 
 .body::before{
     box-sizing:border-box;
-    /* background:white; */
     content:'';
     border:0.2em solid;
     height:2em;
@@ -66,9 +64,8 @@ body{
     border-radius:0 0.3em 0.3em 0;
     top:5.5em;
     right:1em;
-    z-index:-1;
     box-shadow:0 0 2em rgba(255,97,68,0.3);
-    animation:animate 3s linear infinite alternate;
+    /*animation:animate 3s linear infinite alternate;*/
 }
 .button{
     height:1em;
@@ -78,7 +75,14 @@ body{
     top:6em;
     right:4.5em;
     box-shadow:0 0 1em rgba(255,97,68,0.4);
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
+}
+.iconfont{
+    color:white;
+    font-weight:bold;
 }
 .leg-right,
 .leg-left{
@@ -87,7 +91,6 @@ body{
     width:0.7em;
     background:#FF6144;
     border-radius:0 0 0.1em 0.1em;
-    z-index:-1;
     box-shadow:0 0 2em rgba(255,97,68,0.3);
 }
 
@@ -99,6 +102,11 @@ body{
     bottom:1em;
     right:4em;
 }
+.active{
+    animation:animate 3s linear infinite alternate;
+
+}
+
 @keyframes animate{
     0%,20%{
         transform:translateY(0);

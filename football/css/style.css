@@ -1,0 +1,38 @@
+body {  height: 100vh;  display: flex;  justify-content: center;  align-items: center;  background: radial-gradient(#CB6C3A, #9E2D13);  }
+
+* {  padding: 0;  margin: 0;  box-sizing: border-box;  }
+
+.football {  font-size: 10px;  height: 34em;  width: 55em;  background: green;  border: 3px solid white;  position: relative;  box-shadow: 0 0 0 1em rgba(0, 128, 0, 1)  }
+
+.midline {  position: absolute;  top: -3px;  width: 3px;  height: inherit;  background: white;  left: calc(27.5em - 3px);  }
+
+.goal_area::after, .goal_area::before {  content: '';  box-sizing: border-box;  position: absolute;  border: 3px solid;  height: 9.15em;  width: calc(2.75em + 3px);  top: calc(12.425em + 3px);  }
+.goal_area::after {  border-color: white transparent white white;  right: -3px;  }
+.goal_area::before {  border-color: white white white transparent;  left: -3px;  }
+
+.goal::after, .goal::before {  content: '';  position: absolute;  height: 3.66em;  width: calc(1em - 3px);  border: 3px solid;  top: calc(15.17em);  }
+.goal::after {  left: calc(-1em - 3px);  border-color: white transparent white white;  }
+.goal::before {  right: calc(-1em - 3px);  border-color: white white white transparent;  }
+
+.penalty_area::after, .penalty_area::before {  content: '';  position: absolute;  height: 20.16em;  width: calc(8.25em + 3px);  border: 3px solid;  top: 6.92em  }
+.penalty_area::after {  border-color: white transparent white white;  right: -3px;  }
+.penalty_area::before {  border-color: white white white transparent;  left: -3px;  }
+
+.circle {  height: 9.15em;  width: 9.15em;  }
+.ring {  position: absolute;  height: inherit;  width: inherit;  border-radius: 50%;  border: 3px solid white;  }
+.ring.circleMiddle {  left: calc(23.2em - 4px);  top: calc(13em - 4px);  }
+.ring.circleLeft {  top: calc(13em - 4px);  border-color: transparent white transparent transparent;  left: 1em;  }
+.ring.circleRight {  top: calc(13em - 3px);  border-color: transparent transparent transparent white;  right: 1em  }
+
+.penalty_point {  height: 6px;  width: 6px;  }
+.point {  position: absolute;  border-radius: 50%;  background: white;  height: inherit;  width: inherit;  }
+.point.left {  top: calc(17em - 3px);  left: calc(5.5em - 3px);  }
+.point.middle {  top: calc(17em - 3px);  left: calc(27.5em - 4.5px);  }
+.point.right {  top: calc(17em - 3px);  right: calc(5.5em - 3px);  }
+
+.corner_flag {  height: 2em;  width: 2em;  }
+.flag {  position: absolute;  height: inherit;  width: inherit;  border: 3px solid;  border-radius: 50%;  transform: rotate(45deg);  }
+.flag.leftTop {  top: -1em;  left: -1em;  border-color: transparent white transparent transparent;  }
+.flag.rightTop {  border-color: transparent transparent white transparent;  top: -1em;  right: -1em;  }
+.flag.rightBottom {  border-color: transparent transparent transparent white;  bottom: -1em;  right: -1em;  }
+.flag.leftBottom {  border-color: white transparent transparent transparent;  bottom: -1em;  left: -1em;  }
