@@ -1,0 +1,139 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(to top,#B24121,#D77A43);
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.coffee_machine{
+    height:20em;
+    width:20em;
+    position:relative;
+}
+.body{
+    height:16em;
+    width:12em;
+    background:#F4A55F;
+    position:absolute;
+    top:2em;
+    left:4em;
+    border-radius:2em;
+    border-right:1em solid #CE853F
+}
+.body::after,
+.body::before{
+    content:'';
+    position:absolute;
+    height:2.5em;
+    width:2.5em;
+    border:0.5em solid;
+    border-radius:50%;
+}
+.body::after{
+    bottom:0.5em;
+    left:0.5em;
+    border-color:transparent transparent white transparent;
+    transform:rotate(45deg);
+}
+.body::before{
+    top:0.5em;
+    left:0.5em;
+    border-color:white transparent transparent  transparent;
+    transform:rotate(-45deg);
+}
+.body_color{
+    position:absolute;
+    box-sizing:border-box;
+    height:10em;
+    width:12em;
+    background:#2B4D4C;
+    top:5em;
+    left:4em;
+    border-right:1em solid #030202;
+}
+.spout{
+    height:1.5em;
+    width:5em;
+    background:white;
+    border-radius:1em;
+    position:absolute;
+    top:5em;
+    left:7.5em;
+    border-right:0.7em solid #C1C1C1;
+}
+.cup{
+    height:3em;
+    width:5em;
+    background:white;
+    border-radius:0 0 2em 2em;
+    position:absolute;
+    bottom:calc(5em - 2px);
+    left:7.5em;
+    border-right:0.7em solid #C1C1C1;
+}
+.cup::after{
+    content:'';
+    position:absolute;
+    box-sizing:border-box;
+    height:1.7em;
+    width:1.7em;
+    border:0.4em solid silver;
+    border-radius:50%;
+    bottom:1em;
+    left:4.3em;
+}
+.button{
+    height:1.5em;
+    width:1.5em;
+    position:absolute;
+    background:#FF6347;
+    border-radius:50%;
+    bottom:2.5em;
+    right:6em;
+}
+.coffee::before,
+.coffee::after{
+    content:'';
+    height:6em;
+    width:1.5em;
+    background:#D26918;
+    position:absolute;
+    left:9.25em;
+    top:6.5em;
+    animation: 2s linear infinite;
+}
+.coffee::before{
+    animation-name:animate-1;
+    transform-origin: top;
+}
+.coffee::after{
+    animation-name:animate-2;
+    transform-origin: bottom;
+}
+@keyframes animate-1{
+    0%,20%{
+        transform:scaleY(0)
+    }
+    30%,100%{
+        transform:scaleY(1)
+    }
+    70%,100%{
+        visibility:hidden;
+    }
+}
+
+@keyframes animate-2 {
+    0%, 70% {
+        visibility: hidden;
+        transform: scaleY(1);
+    }
+
+    80%, 100% {
+        transform: scaleY(0);
+    }
+}

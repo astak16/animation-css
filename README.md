@@ -61,6 +61,7 @@
 57. 蒸锅：[steamer](https://astak16.github.io/Study-CSS/steamer-2018-7-15/index.html)
 58. 烤面包机：[toaster](https://astak16.github.io/Study-CSS/toaster-2018-7-15/)
 59. 足球场：[football](https://astak16.github.io/Study-CSS/football-2018-7-16/index.html)
-60. 晃动 loading：[shakeLoading](https://astak16.github.io/Study-CSS/shakeLoading-2018-7-16/index.html)
+60. 晃动 loading：[shakeLoading](https://astak16.github.io/Study-CSS/shakeLoading-2018-7-16/)
+61. 咖啡机：[coffeeMachine](https://astak16.github.io/Study-CSS/coffeeMachine-2018-7-17/index.html)
 
 
