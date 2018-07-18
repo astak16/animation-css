@@ -1,0 +1,85 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#D4D4D4;
+}
+.cards{
+    width:20em;
+    height:20em;
+    position:relative;
+}
+.cards .card{
+    position:absolute;
+    width:10em;
+    height:3em;
+    background:#F07675;
+    border:0.2em solid #656566;
+    border-radius:0.4em 0.8em 0.8em 0.4em;
+    top:calc(10em - 3em / 2);
+    animation:animate 4s linear infinite;
+    transform-origin:right;
+    animation-delay:calc((var(--n) + 8) * 0.2s);
+}
+.cards .card::before{
+    content:'';
+    position:absolute;
+    box-sizing:border-box;
+    width:4em;
+    height:3em;
+    right:0;
+    border-radius: 0 0.6em 0.6em 0;
+    background:#FFFFFF;
+    border-left:0.2em solid #C1C1C1;
+}
+.cards .card::after{
+    content:'';
+    position:absolute;
+    height:2.4em;
+    width:7px;
+    background:#C1C1C1;
+    top:0.1em;
+    right:2.8em;
+    box-shadow:1em 0 0 -0.1em silver;
+}
+@keyframes animate{
+    0%,35%{
+        transform:rotate(0deg);
+    }
+    90%,100%{
+        transform:rotate(360deg);
+    }
+}
+.cards .card:nth-child(1){
+    --n:8;
+    background:#F075D2
+}
+.cards .card:nth-child(2){
+    --n:7;
+    background:#B476EC;
+}
+.cards .card:nth-child(3){
+    --n:6;
+    background:#7695F0;
+}
+.cards .card:nth-child(4){
+    --n:5;
+    background:#76F0F1;
+}
+.cards .card:nth-child(5){
+    --n:4;
+    background:#76F095;
+}
+.cards .card:nth-child(6){
+    --n:3;
+    background:#B4F075;
+}
+.cards .card:nth-child(7){
+    --n:2;
+    background:#EFD176;
+}
+.cards .card:nth-child(8){
+    --n:1;
+    background:#F07675;
+}
