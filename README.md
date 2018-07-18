@@ -64,6 +64,7 @@
 60. 晃动 loading：[shakeLoading](https://astak16.github.io/Study-CSS/shakeLoading-2018-7-16/)
 61. 咖啡机：[coffeeMachine](https://astak16.github.io/Study-CSS/coffeeMachine-2018-7-17/)
 62. 点阵loading：[latticeLoading](https://astak16.github.io/Study-CSS/latticeLoading-2018-7-17/)
-63. 色卡：[cards](https://astak16.github.io/Study-CSS/cards-2018-7-18/index.html)
+63. 色卡：[cards](https://astak16.github.io/Study-CSS/cards-2018-7-18/)
+64. 抛盒子：[throwBoxLoading](https://astak16.github.io/Study-CSS/throwBoxLoading-2018-7-18/index.html)
 
 
