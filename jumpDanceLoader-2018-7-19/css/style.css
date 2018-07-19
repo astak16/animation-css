@@ -1,0 +1,67 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:goldenrod;
+    margin:0
+}
+.loader{
+    height:20em;
+    width:20em;
+    position:relative;
+}
+.loader::before{
+    content:'';
+    position:absolute;
+    height:50%;
+    width:inherit;
+    border-bottom:5px solid black;
+}
+.loader span{
+    position:absolute;
+    width:2em;
+    height:2em;
+    background:lime;
+    border-radius:50%;
+    top:calc(50% - 2em / 2);
+    animation:animate 2s linear infinite;
+    transform-origin:10em  top;
+    animation-delay:calc((var(--n) - 5) * 0.1s);
+}
+@keyframes animate{
+    to{
+        filter:opacity(1);
+        transform:rotateX(360deg) rotateZ(360deg);
+    }
+}
+.loader span:nth-child(1) {
+    --n: 1;
+}
+
+.loader span:nth-child(2) {
+    --n: 2;
+}
+
+.loader span:nth-child(3) {
+    --n: 3;
+}
+
+.loader span:nth-child(4) {
+    --n: 4;
+}
+
+.loader span:nth-child(5) {
+    --n: 5;
+}
+.loader span:nth-child(6) {
+    --n: 6;
+}
+
+.loader span:nth-child(7) {
+    --n: 7;
+}
+
+.loader span:nth-child(8) {
+    --n: 8;
+}
