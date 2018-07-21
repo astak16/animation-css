@@ -68,6 +68,7 @@
 64. 抛盒子：[throwBoxLoading](https://astak16.github.io/Study-CSS/throwBoxLoading-2018-7-18/)
 65. 徘徊的果冻兽：[monster](https://astak16.github.io/Study-CSS/monster-2018-7-19/)
 66. 跳 8字形舞的 loader：[jumpDanceLoader](https://astak16.github.io/Study-CSS/jumpDanceLoader-2018-7-19/)
-67. 气泡填色的按钮特效:[bubbleColorButtonEffect](https://astak16.github.io/Study-CSS/bubbleColorButtonEffect-2018-7-19/)
+67. 气泡填色的按钮特效:[bubbleColorButtonEffect](https://astak16.github.io/Study-CSS/bubbleColorButtonEffect-2018-7-20/)
+68. 狐狸：[fox](https://astak16.github.io/Study-CSS/fox-2018-7-20/)
 
 
