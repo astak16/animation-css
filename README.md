@@ -71,5 +71,6 @@
 67. 气泡填色的按钮特效:[bubbleColorButtonEffect](https://astak16.github.io/Study-CSS/bubbleColorButtonEffect-2018-7-20/)
 68. 狐狸：[fox](https://astak16.github.io/Study-CSS/fox-2018-7-20/)
 69. macbook：[macbook](https://astak16.github.io/Study-CSS/macbook-2018-7-21/)
+70. 极品飞车 loader：[needForSpeedLoader](https://astak16.github.io/Study-CSS/needForSpeedLoader-2018-7-22/)
 
 
