@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b4412c-833d-4ad1-a1a6-6ffa89c9061b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/needForSpeedLoader-2018-7-22/index.html" afterPath="$PROJECT_DIR$/needForSpeedLoader-2018-7-22/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,21 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/aaa/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aaa/index.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/needForSpeedLoader-2018-7-22/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -57,7 +47,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/coffee-2018-6-25/index.html" />
         <option value="$PROJECT_DIR$/coffee-2018-6-25/css/style.css" />
         <option value="$PROJECT_DIR$/diamond-2018-6-25/index.html" />
         <option value="$PROJECT_DIR$/diamond-2018-6-25/css/style.css" />
@@ -108,6 +97,7 @@
         <option value="$PROJECT_DIR$/aim-2018-6-27/index.html" />
         <option value="$PROJECT_DIR$/aaa/index.html" />
         <option value="$PROJECT_DIR$/aaa/css/style.css" />
+        <option value="$PROJECT_DIR$/needForSpeedLoader-2018-7-22/index.html" />
       </list>
     </option>
   </component>
@@ -157,17 +147,6 @@
             <path>
               <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
               <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
               <item name="fox-2018-7-20" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -175,6 +154,11 @@
               <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
               <item name="fox-2018-7-20" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Study-CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="needForSpeedLoader-2018-7-22" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Study-CSS" type="b2602c69:ProjectViewProjectNode" />
@@ -305,12 +289,12 @@
       <workItem from="1532071503596" duration="1691000" />
       <workItem from="1532154094222" duration="1759000" />
       <workItem from="1532170868749" duration="8000" />
-      <workItem from="1532219793247" duration="201000" />
+      <workItem from="1532219793247" duration="810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97744000" />
+    <option name="totallyTimeSpent" value="98353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1026" extended-state="6" />
@@ -363,13 +347,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cascadingWaveEffects-2018-7-4/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/penrose-2018-7-6/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -676,6 +653,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/needForSpeedLoader-2018-7-22/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="46" lean-forward="false" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
           <folding />
         </state>
       </provider>
