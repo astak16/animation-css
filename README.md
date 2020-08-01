@@ -1,6 +1,15 @@
-### 每天写一个 CSS
+> Create by 天天天天天 2020-08-01
 
-### 预览链接
+
+## 预览
+
+1. 一朵美丽的雪花
+    * [预览](https://astak16.github.io/animation-css/snowflake-2020-8-1/index.html)
+    * [源码 + 知识点](./snowflake-2020-8-1/README.md)
+    
+    
+    
+----------
 
 1. 蚊香：[MosquitoCoils](https://astak16.github.io/animation-css/MosquitoCoils-2018-6-11/index.html)
 2. 雪糕：[ice-lolly](https://astak16.github.io/animation-css/ice-lolly-2018-6-12/index.html)
