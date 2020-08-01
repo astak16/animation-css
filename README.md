@@ -3,7 +3,7 @@
 
 ## 预览
 
-1. 一朵美丽的雪花
+1. 一朵美丽的雪花[2020-08-01]
     * [预览](https://astak16.github.io/animation-css/snowflake-2020-8-1/index.html)
     * [源码 + 知识点](./snowflake-2020-8-1/)
     
