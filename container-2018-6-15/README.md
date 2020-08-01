@@ -1,4 +1,4 @@
-[预览链接](https://astak16.github.io/Study-CSS/container-2018-6-15/index.html)
+[预览链接](https://astak16.github.io/animation-css/container-2018-6-15/index.html)
 
 ## 知识点
 

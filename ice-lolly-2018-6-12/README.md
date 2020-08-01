@@ -1,4 +1,4 @@
-[预览链接](https://astak16.github.io/Study-CSS/ice-lolly-2018-6-12/index.html)
+[预览链接](https://astak16.github.io/animation-css/ice-lolly-2018-6-12/index.html)
 
 ### 雪糕
 
