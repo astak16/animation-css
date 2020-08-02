@@ -6,7 +6,10 @@
 1. 一朵美丽的雪花[2020-08-01]
     * [预览](https://astak16.github.io/animation-css/snowflake-2020-8-1/index.html)
     * [源码 + 知识点](./snowflake-2020-8-1/)
-    
+              
+2. 单元素点阵[2020-08-02]
+    * [预览](https://astak16.github.io/animation-css/lattice-2020-8-2/index.html)
+    * [源码 + 知识点](./lattice-2020-8-2/)     
     
     
 ----------
@@ -72,7 +75,6 @@
 59. 足球场：[football](https://astak16.github.io/animation-css/football-2018-7-16/index.html)
 60. 晃动 loading：[shakeLoading](https://astak16.github.io/animation-css/shakeLoading-2018-7-16/)
 61. 咖啡机：[coffeeMachine](https://astak16.github.io/animation-css/coffeeMachine-2018-7-17/)
-62. 点阵 loading：[latticeLoading](https://astak16.github.io/animation-css/latticeLoading-2018-7-17/)
 63. 色卡：[cards](https://astak16.github.io/animation-css/cards-2018-7-18/)
 64. 抛盒子：[throwBoxLoading](https://astak16.github.io/animation-css/throwBoxLoading-2018-7-18/)
 65. 徘徊的果冻兽：[monster](https://astak16.github.io/animation-css/monster-2018-7-19/)
