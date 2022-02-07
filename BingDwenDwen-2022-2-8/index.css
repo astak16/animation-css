@@ -12,6 +12,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: scale(2);
 }
 
 img {
@@ -138,7 +139,7 @@ img {
 .heart {
   width: 1em;
   height: 1em;
-  background-color: #F00056;
+  background-color: #f00056;
   position: absolute;
   transform: rotate(60deg);
   top: 1em;
@@ -149,7 +150,7 @@ img {
   content: "";
   width: 1em;
   height: 1em;
-  background-color: #F00056;
+  background-color: #f00056;
   border-radius: 100%;
   position: absolute;
   top: -0.5em;
@@ -160,7 +161,7 @@ img {
   content: "";
   width: 1em;
   height: 1em;
-  background-color: #F00056;
+  background-color: #f00056;
   border-radius: 100%;
   position: absolute;
   top: 0;
@@ -176,17 +177,25 @@ img {
   background-color: #161823;
   border-radius: 50% 50% 42% 45%;
   transform: rotate(-45deg);
-  background-image: radial-gradient(circle at 5.1em 2em, white 0.3em, transparent 0.3em),
-  radial-gradient(circle at 4.6em 2em, #161823 0.7em, transparent 0.7em),
-  radial-gradient(circle at 4.5em 2em, white 1em, transparent 1em);
+  background-image: radial-gradient(
+      circle at 5.1em 2em,
+      white 0.3em,
+      transparent 0.3em
+    ),
+    radial-gradient(circle at 4.6em 2em, #161823 0.7em, transparent 0.7em),
+    radial-gradient(circle at 4.5em 2em, white 1em, transparent 1em);
   animation: before-animate 1s ease-in-out infinite alternate;
 }
 
 @keyframes before-animate {
   to {
-    background-image: radial-gradient(circle at 4.9em 1.8em, white 0.3em, transparent 0.3em),
-    radial-gradient(circle at 4.4em 1.8em, #161823 0.7em, transparent 0.7em),
-    radial-gradient(circle at 4.5em 2em, white 1em, transparent 1em);
+    background-image: radial-gradient(
+        circle at 4.9em 1.8em,
+        white 0.3em,
+        transparent 0.3em
+      ),
+      radial-gradient(circle at 4.4em 1.8em, #161823 0.7em, transparent 0.7em),
+      radial-gradient(circle at 4.5em 2em, white 1em, transparent 1em);
   }
 }
 
@@ -199,20 +208,27 @@ img {
   background-color: #161823;
   border-radius: 50% 50% 45% 42%;
   transform: rotate(45deg);
-  background-image: radial-gradient(circle at 1.5em 1.5em, white 0.3em, transparent 0.3em),
-  radial-gradient(circle at 1.5em 2em, #161823 0.7em, transparent 0.7em),
-  radial-gradient(circle at 1.6em 2em, white 1em, transparent 1em);
+  background-image: radial-gradient(
+      circle at 1.5em 1.5em,
+      white 0.3em,
+      transparent 0.3em
+    ),
+    radial-gradient(circle at 1.5em 2em, #161823 0.7em, transparent 0.7em),
+    radial-gradient(circle at 1.6em 2em, white 1em, transparent 1em);
   animation: after-animate 1s ease-in-out infinite alternate -1s;
 }
 
 @keyframes after-animate {
   to {
-    background-image: radial-gradient(circle at 1.6em 1.3em, white 0.3em, transparent 0.3em),
-    radial-gradient(circle at 1.6em 1.8em, #161823 0.7em, transparent 0.7em),
-    radial-gradient(circle at 1.6em 2em, white 1em, transparent 1em);
+    background-image: radial-gradient(
+        circle at 1.6em 1.3em,
+        white 0.3em,
+        transparent 0.3em
+      ),
+      radial-gradient(circle at 1.6em 1.8em, #161823 0.7em, transparent 0.7em),
+      radial-gradient(circle at 1.6em 2em, white 1em, transparent 1em);
   }
 }
-
 
 .head {
   position: absolute;
@@ -220,23 +236,25 @@ img {
   left: 1.2em;
   width: 14em;
   height: 10.7em;
-  box-shadow: inset 0.1em 0.1em 0.1em 0.1em #DC2F1F,
-  0.1em 0.1em 0.1em 0.1em #006BB0,
-  inset 0.2em 0.2em 0.1em 0.1em #059341,
-  0.2em 0.2em 0.1em 0.1em #EFA90D,
-  0.3em 0.3em 0.1em 0.1em #1D1815;
+  box-shadow: inset 0.1em 0.1em 0.1em 0.1em #dc2f1f,
+    0.1em 0.1em 0.1em 0.1em #006bb0, inset 0.2em 0.2em 0.1em 0.1em #059341,
+    0.2em 0.2em 0.1em 0.1em #efa90d, 0.3em 0.3em 0.1em 0.1em #1d1815;
   border-top-left-radius: 11em;
   border-top-right-radius: 11em;
   border-bottom-left-radius: 11em 6em;
   border-bottom-right-radius: 11em 6em;
-  background-image: radial-gradient(ellipse at 56% 64%, #161823 1.2em, transparent 1.2em);
+  background-image: radial-gradient(
+    ellipse at 56% 64%,
+    #161823 1.2em,
+    transparent 1.2em
+  );
 }
 
 .mouth {
   position: absolute;
   width: 1.5em;
   height: 0.5em;
-  border: 0.5em solid #1D1815;
+  border: 0.5em solid #1d1815;
   border-radius: 0 0 1.5em 1.5em;
   border-top: none;
   top: 10em;
@@ -263,20 +281,20 @@ img {
 .circle {
   width: 1.4em;
   height: 1.4em;
-  border: 0.2em solid #DC2F1F;
+  border: 0.2em solid #dc2f1f;
   border-radius: 50%;
   position: absolute;
 }
 
 .blue {
-  border-color: #006BB0;
+  border-color: #006bb0;
   position: absolute;
   top: 0;
   left: 0;
 }
 
 .blue-cover {
-  border-color: #006BB0;
+  border-color: #006bb0;
   z-index: 2;
   border-bottom-color: transparent;
   position: absolute;
@@ -285,14 +303,14 @@ img {
 }
 
 .black {
-  border-color: #1D1815;
+  border-color: #1d1815;
   position: absolute;
   top: 0;
   left: 2em;
 }
 
 .black-cover {
-  border-color: #1D1815;
+  border-color: #1d1815;
   z-index: 2;
   border-left-color: transparent;
   position: absolute;
@@ -307,7 +325,7 @@ img {
 }
 
 .red-cover {
-  border-color: #DC2F1F;
+  border-color: #dc2f1f;
   z-index: 2;
   border-left-color: transparent;
   position: absolute;
@@ -316,14 +334,14 @@ img {
 }
 
 .yellow {
-  border-color: #EFA90D;
+  border-color: #efa90d;
   position: absolute;
   top: 0.7em;
   left: 1em;
 }
 
 .yellow-cover {
-  border-color: #EFA90D;
+  border-color: #efa90d;
   position: absolute;
   top: -0.2em;
   left: -0.2em;
