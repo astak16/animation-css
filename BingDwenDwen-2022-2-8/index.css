@@ -15,14 +15,6 @@ body {
   transform: scale(2);
 }
 
-img {
-  position: absolute;
-  width: 26em;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
 .panda {
   width: 16em;
   height: 20em;
