@@ -13,6 +13,9 @@
     
     
 ----------
+2022-02-08 更新
+冰墩墩：[BingDwenDwen](https://astak16.github.io/animation-css/BingDwenDwen-2022-2-8/index.html)
+----------
 
 1. 蚊香：[MosquitoCoils](https://astak16.github.io/animation-css/MosquitoCoils-2018-6-11/index.html)
 2. 雪糕：[ice-lolly](https://astak16.github.io/animation-css/ice-lolly-2018-6-12/index.html)
